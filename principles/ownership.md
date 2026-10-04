@@ -46,9 +46,14 @@ theirs and are reluctant to throw away time they've invested.
 - Start with an empty form that contains nothing of the user's.
 - Offer so many customization options that it turns into decision fatigue
   (balance with smart-defaults.md: pre-fill, let them adjust).
+- Mix "my" and "your" on the same screen. First-person button text
+  ("Start my free trial") is one option; "Your plan" is another. Pick one
+  voice per app and use it everywhere. (A later source claims "my" on a
+  button creates ownership; treat that as untested, not proven.)
 
 ## Guardrail
 Choices must be useful to the user, not busywork to trap them.
 Leaving, exporting or deleting must stay easy.
 
-Source: uxpeak, "Six Psychology Principles That Transform UX Design" (see sources.md)
+Sources: uxpeak, "Six Psychology Principles That Transform UX Design";
+uxpeak, three A/B test examples (see sources.md)

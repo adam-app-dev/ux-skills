@@ -31,6 +31,29 @@ not a single piece).
 Don't: use an image that implies a different quantity, size or version.
 Source: uxpeak, product page redesign
 
+## Show the real thing, not decoration
+Why: people can't commit to something they can't picture. A decorative
+illustration can be beautiful and still not answer "what am I actually
+getting?"
+Do: use images of the real content, product or result (actual items,
+real screens, real examples from the library).
+Don't: fill the key image slot with generic art or mood pictures when
+real content exists.
+Example: an upgrade screen shows a few of the actual items the plan
+unlocks, instead of an abstract illustration.
+Source: uxpeak, three A/B test examples
+
+## When the image is the thing being chosen, give it room
+Why: for a place, a product or anything chosen mostly by how it looks,
+the photo is the main information. Squeezed into a small thumbnail, it
+turns an exciting choice into a form to fill in.
+Do: give the main image a large share of the screen, and show when more
+images exist (for example "1 of 24").
+Don't: shrink the deciding image to make room for fields and labels.
+Note: this is about images that drive the decision. Lists, settings and
+data screens don't need large images.
+Source: uxpeak, three A/B test examples
+
 ## Images that appear together follow one visual system
 Why: a single beautiful image can still make a list feel messy if every
 item has different backgrounds, lighting and props.

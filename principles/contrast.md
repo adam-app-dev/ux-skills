@@ -43,9 +43,23 @@ dish looks reasonable.
 ## Don't
 - Show a cost or number in isolation when a comparison would explain it.
 - Stack so many comparisons that the main number gets lost.
+- Use a comparison badge ("Cheaper", "Best value") that isn't true
+  against the options actually on screen.
+- Rely on color alone (a green badge) to say "this is the good one".
+  Use words, and check the badge text still meets the 4.5:1 contrast
+  minimum.
 
 ## Guardrail
 References must be real and relevant. No inflated "original prices",
 no decoy options that exist only to mislead.
+- **Crossed-out prices:** show an old price only if it was really
+  charged. In the EU, the "before" price must be the lowest price of the
+  last 30 days.
+- **Screen readers:** a strikethrough is usually not announced, so a bare
+  "€129 €89" is read as two prices. Give it an accessible label
+  ("was €129, now €89"; in Compose, via semantics).
+Note: the third source shows a crossed-out price and a "−31%" badge as a
+pure win. This repo keeps the idea only when the old price is real.
 
-Source: uxpeak, "Six Psychology Principles That Transform UX Design" (see sources.md)
+Sources: uxpeak, "Six Psychology Principles That Transform UX Design";
+uxpeak, three A/B test examples (see sources.md)
