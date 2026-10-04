@@ -38,10 +38,23 @@ Source: uxpeak, product page redesign
 ## Icons share one visual style
 Why: mixed icon styles (some filled, some outlined, some heavy, some
 light, many colors) make a section feel messy and pull too much attention.
-Do: use one style (all outlined or all filled), similar weight, limited
-colors.
+Do: use one style (all outlined or all filled), similar weight, similar
+level of detail, limited colors.
 Don't: mix icon sets or styles on the same screen.
-Source: uxpeak, product page redesign
+Exception: a selected state may switch one icon from outlined to filled
+(for example the current tab, see navigation.md). That change is the
+signal, not a mismatch.
+Sources: uxpeak, product page redesign; Bottom navigation design guide (YouTube)
+
+## Icons are the familiar ones
+Why: an icon only saves time if people recognize it at a glance. An
+unusual or artistic icon makes users stop and guess.
+Do: use the symbol people already know for that function (a magnifying
+glass for search, a house for home, a bell for notifications), drawn
+simply.
+Don't: invent a creative alternative (binoculars for search) or use a
+detailed illustration as an icon.
+Source: Bottom navigation design guide (YouTube)
 
 ## Separators stay subtle
 Why: dividers exist to separate, not to be noticed. Heavy dark lines chop

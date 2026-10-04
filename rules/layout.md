@@ -32,3 +32,32 @@ Do: reuse the same spacing value for the same relationship
 (e.g. every section gap is the same token).
 Don't: pick a slightly different gap for each section.
 Source: uxpeak, product page redesign
+
+## Content stays inside the safe area
+Why: modern phones have a home swipe bar, rounded corners and camera
+cut-outs. Controls placed under them are hard to tap, and a tap near the
+home bar can send the user out of the app by accident.
+Do: keep bars, sticky buttons and other controls inside the device's
+safe area, above the home bar (in Compose: respect the window insets,
+for example through Scaffold).
+Don't: hide the home bar, overlap it, or squeeze controls against it.
+Source: Bottom navigation design guide (YouTube)
+
+## Tap areas are bigger than what they show
+Why: a small icon is fine to look at but hard to hit with a thumb,
+especially for people with less precise hands. Too-small targets cause
+mis-taps and frustration.
+Do: give every tappable element a touch area at least the platform
+minimum (iOS: 44pt; Android: 48dp), even when the visible icon is
+smaller. Keep enough space between targets that neighbors aren't hit
+by mistake.
+Don't: make the touch area the same size as a small icon.
+Source: Bottom navigation design guide (YouTube)
+
+## Check it on a real phone
+Why: a screen that looks right on a big monitor can feel cramped,
+tiny or hard to reach in the hand.
+Do: try the design on a real device, held in one hand, on a small and a
+large phone.
+Don't: approve tap sizes and spacing only from a desktop preview.
+Source: Bottom navigation design guide (YouTube)

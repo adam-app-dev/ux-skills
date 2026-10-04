@@ -1,6 +1,6 @@
 ---
 name: ux-skills
-description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency) and concrete screen rules (imagery, layout, hierarchy, typography, placement, wording).
+description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency) and concrete screen rules (imagery, layout, hierarchy, typography, placement, wording, navigation).
 ---
 
 # UX Skills
@@ -25,6 +25,7 @@ Before delivering, test it in your head against the real range:
 - Lists: empty, one item, a hundred items
 - Numbers: zero, huge, negative, with decimals
 - States: loading, error, offline
+- Devices: small phone, large phone, wide screen, large text setting
 
 Design for the system the screen lives in, not the one screenshot.
 
@@ -65,6 +66,7 @@ Design for the system the screen lives in, not the one screenshot.
 | [Typography](rules/typography.md) | Headlines attract, paragraphs support | has text beyond a single label |
 | [Placement](rules/placement.md) | Put it where the user needs it | has information the user needs to decide or act |
 | [Wording](rules/wording.md) | Specific words do the convincing | has buttons, titles, dates, totals or helper lines |
+| [Navigation](rules/navigation.md) | The backbone, not a toolbox | has a bottom bar, tabs, a side rail or moves between main sections |
 
 The common thread of the principles: people don't decide logically.
 They react to what is pre-chosen, what they already have, what they just
