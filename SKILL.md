@@ -1,12 +1,12 @@
 ---
 name: ux-skills
-description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison).
+description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison) and concrete screen rules (imagery, layout, hierarchy, typography, placement).
 ---
 
 # UX Skills
 
 This skill holds **judgment**: what makes a screen work for people, and why.
-It never holds **values** (colors, sizes, spacing numbers, components).
+It never holds **values** (colors, sizes, spacing numbers, fonts, components).
 Those come from the project's own design system.
 
 - ux-skills says: "the main action must stand out"
@@ -15,19 +15,34 @@ Those come from the project's own design system.
 If a rule here seems to conflict with the project's design system,
 follow the design system for how it looks, and this skill for what it does.
 
+## Core rule: design for every case, not the demo case
+
+A screen that only works with the example content is broken.
+Before delivering, test it in your head against the real range:
+
+- Images: dark, bright, busy, user-uploaded, missing
+- Text: very short, very long, other languages (Italian and German run long)
+- Lists: empty, one item, a hundred items
+- Numbers: zero, huge, negative, with decimals
+- States: loading, error, offline
+
+Design for the system the screen lives in, not the one screenshot.
+
 ## How to use it on any screen or feature
 
 1. Name what the user is trying to do on this screen (decide, enter data,
-   track progress, act, compare).
-2. Scan the index below. Pick the principles that genuinely fit.
-   Usually 1 to 3. Never force all of them in.
-3. Read only the files you picked. Each has a before/after example:
-   use it to recognize the "before" in your own screen.
+   track progress, act, compare, buy).
+2. Scan both indexes below. Pick what genuinely fits.
+   Usually 1 to 3 principles; rules apply more broadly.
+   Never force everything in.
+3. Read only the files you picked. Each has examples: use them to
+   recognize the "before" in your own screen.
 4. Apply them using the project's design system for visuals.
-5. When you deliver, list which principles you applied and where,
+5. Run the core rule check above.
+6. When you deliver, list which principles and rules you applied and where,
    in one line each, so the work can be reviewed.
 
-## Principle index
+## Principle index (how people think)
 
 | Principle | Memory hook | Look for it when the screen... |
 |---|---|---|
@@ -38,9 +53,19 @@ follow the design system for how it looks, and this skill for what it does.
 | [Loss framing](principles/loss-framing.md) | Losing hurts twice as much as gaining | asks the user to act, keep, turn on, or confirm a destructive step |
 | [Contrast](principles/contrast.md) | The first number becomes the ruler | shows a price, amount, score or statistic |
 
-The common thread: people don't decide logically. They react to what is
-pre-chosen, what they already have, what they just saw, and how close
-the finish line feels. Design for that, honestly.
+## Rules index (how a screen is built)
+
+| Rule file | Memory hook | Read it when the screen... |
+|---|---|---|
+| [Imagery](rules/imagery.md) | Works on any photo | shows photos, especially with anything on top of them |
+| [Layout](rules/layout.md) | One grid, meaningful space | has more than one section (almost always) |
+| [Hierarchy](rules/hierarchy.md) | Clear, never shouting | has a title, a main action, icons, colors or dividers |
+| [Typography](rules/typography.md) | Headlines attract, paragraphs support | has text beyond a single label |
+| [Placement](rules/placement.md) | Put it where the user needs it | has information the user needs to decide or act |
+
+The common thread of the principles: people don't decide logically.
+They react to what is pre-chosen, what they already have, what they just
+saw, and how close the finish line feels. Design for that, honestly.
 
 ## Honesty guardrails (apply to every principle)
 
@@ -59,5 +84,4 @@ design, app store review policies, and user trust).
 
 ## Coming later
 
-- `rules/`: concrete screen rules (forms, lists, states, navigation, accessibility)
 - `checklist.md`: final self-check before delivering a screen

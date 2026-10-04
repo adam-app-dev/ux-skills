@@ -21,13 +21,22 @@ which is a much easier task.
 - **Before:** a booking screen with five empty fields and a button that says "Search".
 - **After:** the same five fields pre-filled with the most common choices,
   and the button says "See 12 results", so the user knows the outcome before tapping.
+- **Before:** a quantity stepper the user must tap many times, and an
+  "Add to cart" button that hides the cost.
+- **After:** one-tap quick picks (500 g / 1 kg / 2 kg) based on what most
+  people actually buy, the stepper still there for custom amounts, and the
+  button shows the total ("Add to cart · €8.40"), so there's no uncertainty
+  before tapping.
 
 ## Where it applies
 - **Data entry:** a date field defaults to today; an amount to the last amount used.
 - **Repeated actions:** a new entry pre-picks the category or option used last time.
+- **Common values:** offer the most common choices as one-tap options
+  (chips), based on real usage data, and keep a custom option for everyone else.
 - **Settings:** reminders start on, at a sensible time, instead of a blank picker.
 - **Search and filters:** start with the most useful filter applied, not an empty state.
-- **Buttons:** state the result of the default ("See 12 results"), not just "Search".
+- **Buttons:** state the result of the action ("See 12 results",
+  "Pay €8.40"), not just "Search" or "Pay".
 
 ## Do
 - Pre-select the most common or most recent choice for every field.
@@ -36,9 +45,11 @@ which is a much easier task.
 ## Don't
 - Show a form where every field starts empty when you already know the likely answer.
 - Hide a default the user can't easily see or change.
+- Replace free input entirely with quick picks; always keep a custom option.
 
 ## Guardrail
 A default must serve the user. Never pre-select paid extras,
 data sharing or marketing consent.
 
-Source: uxpeak, "Six Psychology Principles That Transform UX Design" (see sources.md)
+Sources: uxpeak, "Six Psychology Principles That Transform UX Design";
+uxpeak, product page redesign (see sources.md)
