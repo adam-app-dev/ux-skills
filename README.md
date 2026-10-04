@@ -1,0 +1,13 @@
+# ux-skills
+
+My portable UX rules. Same in every project.
+
+- `SKILL.md` — entry point the agent reads first
+- `principles/` — how people think; applies to any feature
+- `rules/` — concrete screen rules (coming later)
+- `sources.md` — where each rule came from
+
+Sorting test for anything new I learn:
+1. True in any app? → here
+2. About how one project looks? → that project's design system
+3. A decision about one project's feature? → that project's brain
