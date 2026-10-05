@@ -21,7 +21,7 @@ Don't: choose a wheel or slider for an entry the user makes often, or
 for a value that must be exact.
 Example: setting your height at sign-up with a wheel is fine; entering
 an exact amount every day with a slider is not.
-Source: Five advanced UX/UI tips (YouTube)
+Source: uxpeak, five advanced UX/UI tips
 
 ## Every value can also be typed
 Why: wheels and sliders are hard for screen reader users and for people
@@ -31,7 +31,7 @@ Do: let the user tap the value to type it, and give wheels and sliders a
 clear accessible label and value ("Height, 175 centimeters"; in Compose,
 via semantics).
 Don't: make a wheel or slider the only way to enter a value.
-Source: Five advanced UX/UI tips (YouTube)
+Source: uxpeak, five advanced UX/UI tips
 
 ## Number fields open the right keyboard and accept local formats
 Why: a full letter keyboard for a number wastes taps, and rejecting
@@ -40,4 +40,4 @@ Do: open the numeric keyboard (with a decimal key when decimals are
 allowed), and accept the user's local decimal separator.
 Don't: force a dot as the only decimal separator, or show an error for
 a valid local format.
-Source: Five advanced UX/UI tips (YouTube)
+Source: uxpeak, five advanced UX/UI tips

@@ -44,7 +44,7 @@ Don't: mix icon sets or styles on the same screen.
 Exception: a selected state may switch one icon from outlined to filled
 (for example the current tab, see navigation.md). That change is the
 signal, not a mismatch.
-Sources: uxpeak, product page redesign; Bottom navigation design guide (YouTube)
+Sources: uxpeak, product page redesign; uxpeak, bottom navigation guide
 
 ## Icons are the familiar ones
 Why: an icon only saves time if people recognize it at a glance. An
@@ -54,7 +54,7 @@ glass for search, a house for home, a bell for notifications), drawn
 simply.
 Don't: invent a creative alternative (binoculars for search) or use a
 detailed illustration as an icon.
-Source: Bottom navigation design guide (YouTube)
+Source: uxpeak, bottom navigation guide
 
 ## Separators stay subtle
 Why: dividers exist to separate, not to be noticed. Heavy dark lines chop

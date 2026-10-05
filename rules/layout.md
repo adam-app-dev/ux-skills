@@ -41,7 +41,7 @@ Do: keep bars, sticky buttons and other controls inside the device's
 safe area, above the home bar (in Compose: respect the window insets,
 for example through Scaffold).
 Don't: hide the home bar, overlap it, or squeeze controls against it.
-Source: Bottom navigation design guide (YouTube)
+Source: uxpeak, bottom navigation guide
 
 ## Tap areas are bigger than what they show
 Why: a small icon is fine to look at but hard to hit with a thumb,
@@ -52,7 +52,7 @@ minimum (iOS: 44pt; Android: 48dp), even when the visible icon is
 smaller. Keep enough space between targets that neighbors aren't hit
 by mistake.
 Don't: make the touch area the same size as a small icon.
-Source: Bottom navigation design guide (YouTube)
+Source: uxpeak, bottom navigation guide
 
 ## Check it on a real phone
 Why: a screen that looks right on a big monitor can feel cramped,
@@ -60,4 +60,4 @@ tiny or hard to reach in the hand.
 Do: try the design on a real device, held in one hand, on a small and a
 large phone.
 Don't: approve tap sizes and spacing only from a desktop preview.
-Source: Bottom navigation design guide (YouTube)
+Source: uxpeak, bottom navigation guide

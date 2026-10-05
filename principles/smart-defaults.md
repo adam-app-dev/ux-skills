@@ -63,4 +63,4 @@ dressed up as popular.
 
 Sources: uxpeak, "Six Psychology Principles That Transform UX Design";
 uxpeak, product page redesign;
-Five advanced UX/UI tips (YouTube) (see sources.md)
+uxpeak, five advanced UX/UI tips (see sources.md)

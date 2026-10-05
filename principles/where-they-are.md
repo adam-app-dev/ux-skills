@@ -55,4 +55,4 @@ why something is shown. Sensitive data (health, money, location) needs
 clear consent before it shapes the screen. The user can always reset or
 turn off personal suggestions.
 
-Source: Five advanced UX/UI tips (YouTube) (see sources.md)
+Source: uxpeak, five advanced UX/UI tips (see sources.md)

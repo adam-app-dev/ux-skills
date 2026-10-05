@@ -84,4 +84,4 @@ Don't: use mismatched stock photos with text laid on top, or a long
 plain list when people browse more than they search.
 See also: "Images that appear together follow one visual system" and
 "Anything on top of a photo gets its own background" above.
-Source: Five advanced UX/UI tips (YouTube)
+Source: uxpeak, five advanced UX/UI tips
