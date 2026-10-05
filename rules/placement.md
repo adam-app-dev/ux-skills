@@ -92,3 +92,30 @@ Don't: hide contact options in a help menu while the user is waiting
 on that person.
 Note: show a worker's photo only with their consent; a name is enough.
 Source: uxpeak, five advanced UX/UI tips
+
+## Show the content, not a door to it
+Why: every tap before the user sees something useful is a cost, and new
+users are the least willing to pay it. A banner that promises content
+("Discover 100+ items") adds a step between the user and the value.
+Do: put a few real items on the screen right away (the top picks, the
+most relevant entries), with a "See all" link for the rest.
+Don't: replace content with a banner or button that only leads to it.
+Example: a home screen shows the top 10 recommended items in a row,
+instead of a banner announcing that recommendations exist.
+See also: give-first.md (value before asking).
+Source: uxpeak, top UI design tips part 2
+
+## Frequent actions sit within thumb reach
+Why: phones are often used one-handed. Controls in the top corners make
+users stretch or change grip, which is slow, and harder still for people
+with limited mobility.
+Do: place the main and most-used actions in the lower, central part of
+the screen, where the thumb naturally rests (sticky bottom buttons,
+bottom bars).
+Don't: put the main action in a top corner on phone screens. Keep
+destructive actions (delete, sign out) out of the easiest spot, so they
+aren't tapped by accident.
+Note: this applies to phones. On tablets and desktop windows, follow
+navigation.md (wide screens).
+See also: "The main action stays reachable" above.
+Source: uxpeak, top UI design tips part 2

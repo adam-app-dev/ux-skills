@@ -4,7 +4,7 @@ My portable UX rules. Same in every project.
 
 - `SKILL.md` — entry point the agent reads first
 - `principles/` — how people think; applies to any feature
-- `rules/` — how a screen is built: imagery, layout, hierarchy, typography, placement, wording, navigation, inputs
+- `rules/` — how a screen is built: imagery, layout, hierarchy, typography, placement, wording, navigation, inputs, states
 - `sources.md` — where each rule came from
 
 Sorting test for anything new I learn:

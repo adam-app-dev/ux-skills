@@ -99,3 +99,16 @@ plain list when people browse more than they search.
 See also: "Images that appear together follow one visual system" and
 "Anything on top of a photo gets its own background" above.
 Source: uxpeak, five advanced UX/UI tips
+
+## People and companies are shown with their face or logo
+Why: a photo or logo is recognized faster than a name, so users spot who
+a message, payment or item is from at a glance.
+Do: show the person's photo or the company's logo next to their name.
+When none exists, show their initials on a colored background, with
+text that meets the 4.5:1 contrast minimum.
+Don't: leave a blank or generic silhouette for everyone, or let the
+image replace the name. Screen readers read the name, not "image" or a
+single letter.
+Example: a list of messages, contacts or transactions, each with an
+avatar or logo.
+Source: uxpeak, top UI design tips part 2

@@ -51,9 +51,12 @@ more than color (a check, a border, bold text).
 Don't: hide two or three choices in a dropdown, or use color or icon
 swatches without a name (screen readers and colorblind users need it).
 Example: sizes, flavors, plan lengths or categories as a row of chips.
-Note: long lists (countries, many categories) still suit a searchable
-list or dropdown.
-Source: uxpeak, product page conversion redesign
+When options need more context, use selectable cards with a label, a
+short description and an icon, instead of a plain text list.
+Note: long lists (countries, many categories) and settings still suit
+a plain list, a searchable list or a dropdown. Cards are for short sets
+of meaningful choices.
+Sources: uxpeak, product page conversion redesign; uxpeak, top UI design tips part 2
 
 ## The chosen option explains itself
 Why: at the moment of choosing, people hesitate over "what will this be
