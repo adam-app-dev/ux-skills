@@ -40,12 +40,19 @@ illustration, not an established fact.)
 - **Destructive or irreversible actions:** what can and can't be undone
   (pairs with loss-framing.md).
 - **Limits:** state free-tier limits upfront, not at the moment they're hit.
+- **Plan choices:** put the key terms ("save 15%", "cancel anytime")
+  inside each option card, so the reassurance arrives at the moment of
+  choosing.
+- **Trust badges:** near the main button, answer the worry this audience
+  actually has ("independently tested", "60-day refund"), not generic
+  promises every app lists.
 
 ## Do
 - Find the single biggest worry for this action and answer it next to
   the button.
 - Use real dates and real totals ("cancel before 26 March", "€445 total").
 - Offer to remind the user before anything costs them money.
+- Ask "what is this specific audience afraid of?" and answer that.
 
 ## Don't
 - Reveal fees, charges or terms only on the last screen.
@@ -54,6 +61,8 @@ illustration, not an established fact.)
 ## Guardrail
 Every promise must be kept: if the screen says "we'll remind you", the
 reminder must really be sent. Transparency is the goal, not a tactic to
-seem trustworthy while hiding something else.
+seem trustworthy while hiding something else. Trust badges must be true
+and checkable (a real test, a real refund policy).
 
-Source: uxpeak, three A/B test examples (paywall, ride-hailing, booking) (see sources.md)
+Sources: uxpeak, three A/B test examples (paywall, ride-hailing, booking);
+uxpeak, product page conversion redesign (see sources.md)

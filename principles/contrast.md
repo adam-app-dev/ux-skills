@@ -33,7 +33,8 @@ dish looks reasonable.
 - **Amounts and spending:** "this month vs last month", "vs your average".
 - **Scores and stats:** show the previous value or a normal range next to the current one.
 - **Prices and add-ons:** show a cost relative to what it protects or belongs to.
-- **Plans:** show options side by side so differences are clear.
+- **Plans:** show options side by side so differences are clear, with
+  each option's terms (savings, cancellation) inside its own card.
 - **Progress:** "3 km today, 1 km more than yesterday".
 
 ## Do
@@ -58,8 +59,17 @@ no decoy options that exist only to mislead.
 - **Screen readers:** a strikethrough is usually not announced, so a bare
   "€129 €89" is read as two prices. Give it an accessible label
   ("was €129, now €89"; in Compose, via semantics).
+- **Plan cards (one-time vs subscription):** both options look equally
+  choosable, and neither paid recurring option is pre-selected. If
+  something must be selected, pick the one-time option.
+- **Selected card:** mark it with a check or radio mark, not a tint alone.
+Note: the product page conversion source pre-selects the subscription
+and gives it a "Most popular" tag. This repo never pre-selects a
+recurring payment, and labels popularity only when it's real
+(see social-proof.md).
 Note: the third source shows a crossed-out price and a "−31%" badge as a
 pure win. This repo keeps the idea only when the old price is real.
 
 Sources: uxpeak, "Six Psychology Principles That Transform UX Design";
-uxpeak, three A/B test examples (see sources.md)
+uxpeak, three A/B test examples;
+uxpeak, product page conversion redesign (see sources.md)

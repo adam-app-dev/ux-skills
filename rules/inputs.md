@@ -41,3 +41,37 @@ allowed), and accept the user's local decimal separator.
 Don't: force a dot as the only decimal separator, or show an error for
 a valid local format.
 Source: uxpeak, five advanced UX/UI tips
+
+## A few options are shown, not hidden in a dropdown
+Why: a dropdown makes users tap, open and read just to find out what
+the choices are. With only a handful of options, that work is wasted.
+Do: show a small set of options (roughly up to six) as visible chips,
+swatches or cards, each with a text name. Mark the selected one with
+more than color (a check, a border, bold text).
+Don't: hide two or three choices in a dropdown, or use color or icon
+swatches without a name (screen readers and colorblind users need it).
+Example: sizes, flavors, plan lengths or categories as a row of chips.
+Note: long lists (countries, many categories) still suit a searchable
+list or dropdown.
+Source: uxpeak, product page conversion redesign
+
+## The chosen option explains itself
+Why: at the moment of choosing, people hesitate over "what will this be
+like?". A short answer right there removes the doubt.
+Do: when an option is selected, show one short line about it under the
+options ("Light and tart, not too sweet", "Best for daily use").
+Don't: hide this information behind hover (phones have none) or in a
+separate details screen.
+Note: the source shows the description as a hover tooltip, which only
+works with a mouse. This repo shows it on selection instead.
+Source: uxpeak, product page conversion redesign
+
+## Follow-up options appear only when they apply
+Why: showing every possible option at once makes the first view heavy;
+most users never need some of them.
+Do: reveal extra options right after the choice that makes them
+relevant (choose "one-time" → see bundle sizes), and keep the first
+view simple.
+Don't: pre-select an upsell inside the revealed options, or hide
+something the user needs to decide correctly.
+Source: uxpeak, product page conversion redesign

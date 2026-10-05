@@ -1,6 +1,6 @@
 ---
 name: ux-skills
-description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency, user stage) and concrete screen rules (imagery, layout, hierarchy, typography, placement, wording, navigation, inputs).
+description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency, user stage, social proof) and concrete screen rules (imagery, layout, hierarchy, typography, placement, wording, navigation, inputs).
 ---
 
 # UX Skills
@@ -54,6 +54,7 @@ Design for the system the screen lives in, not the one screenshot.
 | [Loss framing](principles/loss-framing.md) | Losing hurts twice as much as gaining | asks the user to act, keep, turn on, or confirm a destructive step |
 | [Contrast](principles/contrast.md) | The first number becomes the ruler | shows a price, amount, score or statistic |
 | [Where they are](principles/where-they-are.md) | Day 1 and day 100 need different screens | is seen by both new and regular users (home, dashboards, empty states) |
+| [Social proof](principles/social-proof.md) | People follow people | shows ratings, reviews, counts, or a "most chosen" option |
 | [Easy question](principles/easy-question.md) | Every screen asks a question; make it an easy one | asks the user to decide, pay, or pick between options |
 | [Show the catch](principles/show-the-catch.md) | Say the catch before they find it | involves a charge, trial, deadline, fee, limit or cancellation |
 

@@ -12,11 +12,15 @@ number answers the question before it's asked. A line like "Start in
 Do: replace vague claims with real counts and times ("2 taps",
 "about 3 minutes", "arrives in 2 days").
 Don't: write a number that isn't true or that you can't keep true for
-every user.
+every user. Don't round real counts into vague ones ("200+" when it's
+221): exact real figures are more believable.
+Note: the product page source advises picking specific-looking numbers
+because they feel authentic. This repo never picks numbers; it shows the
+real ones, which are naturally specific.
 Example: "Set up in 3 steps" instead of "Quick setup".
 (The video says "delivery in 23 minutes" beats "fast delivery"; treat it
 as an illustration, not a measured result.)
-Source: uxpeak, three A/B test examples
+Sources: uxpeak, three A/B test examples; uxpeak, product page conversion redesign
 
 ## The button names what happens now, and the commitment stays visible
 Why: a heavy word on a button ("Subscribe", "Commit") makes users imagine

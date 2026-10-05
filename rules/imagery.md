@@ -43,6 +43,20 @@ Example: an upgrade screen shows a few of the actual items the plan
 unlocks, instead of an abstract illustration.
 Source: uxpeak, three A/B test examples
 
+## Show it in use, not only on its own
+Why: people can't touch what's on a screen. An object alone on a plain
+background makes them imagine the experience themselves; a picture of it
+in use (or of its result) answers "what will this be like?" at a glance.
+Do: pair the plain item with an image of it being used or of the
+result (the finished dish, the filled-in template, the set-up room).
+Don't: let the "in use" image promise more than the user gets. If extras
+appear in the photo that aren't included, it breaks "The image matches
+what the user actually gets" above.
+Note: the source says the brain processes images "infinitely faster"
+than text. That's a popular exaggeration; the safe claim is simply that
+a picture is understood faster than a description.
+Source: uxpeak, product page conversion redesign
+
 ## When the image is the thing being chosen, give it room
 Why: for a place, a product or anything chosen mostly by how it looks,
 the photo is the main information. Squeezed into a small thumbnail, it
