@@ -1,6 +1,6 @@
 ---
 name: ux-skills
-description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency) and concrete screen rules (imagery, layout, hierarchy, typography, placement, wording, navigation).
+description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency, user stage) and concrete screen rules (imagery, layout, hierarchy, typography, placement, wording, navigation, inputs).
 ---
 
 # UX Skills
@@ -53,6 +53,7 @@ Design for the system the screen lives in, not the one screenshot.
 | [Ownership](principles/ownership.md) | What I built or chose is mine | can be personalized, named or built by the user |
 | [Loss framing](principles/loss-framing.md) | Losing hurts twice as much as gaining | asks the user to act, keep, turn on, or confirm a destructive step |
 | [Contrast](principles/contrast.md) | The first number becomes the ruler | shows a price, amount, score or statistic |
+| [Where they are](principles/where-they-are.md) | Day 1 and day 100 need different screens | is seen by both new and regular users (home, dashboards, empty states) |
 | [Easy question](principles/easy-question.md) | Every screen asks a question; make it an easy one | asks the user to decide, pay, or pick between options |
 | [Show the catch](principles/show-the-catch.md) | Say the catch before they find it | involves a charge, trial, deadline, fee, limit or cancellation |
 
@@ -67,6 +68,7 @@ Design for the system the screen lives in, not the one screenshot.
 | [Placement](rules/placement.md) | Put it where the user needs it | has information the user needs to decide or act |
 | [Wording](rules/wording.md) | Specific words do the convincing | has buttons, titles, dates, totals or helper lines |
 | [Navigation](rules/navigation.md) | The backbone, not a toolbox | has a bottom bar, tabs, a side rail or moves between main sections |
+| [Inputs](rules/inputs.md) | Match the input to how often and how exactly | asks the user to enter numbers, amounts or values |
 
 The common thread of the principles: people don't decide logically.
 They react to what is pre-chosen, what they already have, what they just

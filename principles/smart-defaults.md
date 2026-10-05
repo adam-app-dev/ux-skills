@@ -27,6 +27,11 @@ which is a much easier task.
   people actually buy, the stepper still there for custom amounts, and the
   button shows the total ("Add to cart · €8.40"), so there's no uncertainty
   before tapping.
+- **Before:** tapping the search bar opens a blank screen. Only users who
+  already know the exact word get anywhere.
+- **After:** the empty search screen shows the user's recent searches,
+  a few genuinely popular items and, if the user agreed, personal
+  suggestions. Anyone who knows what they want just types.
 
 ## Where it applies
 - **Data entry:** a date field defaults to today; an amount to the last amount used.
@@ -35,6 +40,8 @@ which is a much easier task.
   (chips), based on real usage data, and keep a custom option for everyone else.
 - **Settings:** reminders start on, at a sensible time, instead of a blank picker.
 - **Search and filters:** start with the most useful filter applied, not an empty state.
+- **Empty search:** before the user types, show recent searches and
+  popular picks, never a blank screen.
 - **Buttons:** state the result of the action ("See 12 results",
   "Pay €8.40"), not just "Search" or "Pay".
 
@@ -46,10 +53,14 @@ which is a much easier task.
 - Show a form where every field starts empty when you already know the likely answer.
 - Hide a default the user can't easily see or change.
 - Replace free input entirely with quick picks; always keep a custom option.
+- Keep recent searches with no way to clear them.
 
 ## Guardrail
 A default must serve the user. Never pre-select paid extras,
 data sharing or marketing consent.
+"Popular" suggestions must reflect real use, never paid placements
+dressed up as popular.
 
 Sources: uxpeak, "Six Psychology Principles That Transform UX Design";
-uxpeak, product page redesign (see sources.md)
+uxpeak, product page redesign;
+Five advanced UX/UI tips (YouTube) (see sources.md)

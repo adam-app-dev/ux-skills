@@ -72,3 +72,16 @@ Do: match the visual feel to what the content promises (fresh, natural,
 calm, professional).
 Don't: add styling that fights the message.
 Source: uxpeak, product page redesign
+
+## Options people browse get a visual cue in one shared style
+Why: a plain list of names makes users read every line; busy photos make
+every option shout. A simple, matching visual per option lets people
+recognize what they want at a glance.
+Do: give each browsable option (categories, collections, types) a clear
+image or icon of its subject, all in the same style, on a calm, solid
+background. Text on that background meets the 4.5:1 contrast minimum.
+Don't: use mismatched stock photos with text laid on top, or a long
+plain list when people browse more than they search.
+See also: "Images that appear together follow one visual system" and
+"Anything on top of a photo gets its own background" above.
+Source: Five advanced UX/UI tips (YouTube)

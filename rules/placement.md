@@ -61,3 +61,34 @@ Do: on long screens, keep the main action (and the control it needs) in
 a sticky bottom area.
 Don't: make users scroll back up to act once they're ready.
 Source: uxpeak, product page redesign
+
+## Status screens open with the answer
+Why: after a user commits (pays, sends, books, applies), they wait with
+one question: "is it going OK?". A screen of raw data makes them dig for
+the answer and adds worry.
+Do: lead with a plain status line ("On the way", "Approved",
+"Being reviewed"), then the key details (when, where, what's next).
+Don't: open with reference numbers, item lists or a log of dates.
+Example: an order, a request or an application screen starts with its
+status and expected time, and the reference number sits further down.
+Source: Five advanced UX/UI tips (YouTube)
+
+## A process with stages is shown as steps
+Why: a list of dates makes users work out where things stand; a row of
+steps shows it at a glance.
+Do: show the stages as a timeline with done, current and upcoming steps,
+the current one marked by more than color (filled shape, label, bold
+text). Screen readers announce it ("Step 3 of 4, out for delivery").
+Don't: show progress only as timestamps, or mark the current step with
+color alone.
+Source: Five advanced UX/UI tips (YouTube)
+
+## When a person handles the request, show who and how to reach them
+Why: a name (or photo) and a one-tap way to get in touch make waiting
+feel personal and safe, instead of anonymous.
+Do: show who is handling it (a courier, a support agent, a host) with
+quick actions to call or message, placed with the status they relate to.
+Don't: hide contact options in a help menu while the user is waiting
+on that person.
+Note: show a worker's photo only with their consent; a name is enough.
+Source: Five advanced UX/UI tips (YouTube)
