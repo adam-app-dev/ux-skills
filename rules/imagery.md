@@ -41,7 +41,11 @@ Don't: fill the key image slot with generic art or mood pictures when
 real content exists.
 Example: an upgrade screen shows a few of the actual items the plan
 unlocks, instead of an abstract illustration.
-Source: uxpeak, three A/B test examples
+Example: for content people get (a guide, a template, a course), show a
+peek inside (sample pages, real screenshots), not only the cover.
+(The source reports a big conversion jump from this on its own sales
+page, without data; treat it as an illustration.)
+Sources: uxpeak, three A/B test examples; uxpeak, five UX/UI design tips (Playbook)
 
 ## Show it in use, not only on its own
 Why: people can't touch what's on a screen. An object alone on a plain

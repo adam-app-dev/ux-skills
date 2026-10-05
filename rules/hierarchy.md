@@ -5,6 +5,30 @@
 Colors, weights and sizes come from the design system.
 These rules say how much attention each element should get.
 
+## Rank the information before designing it
+Why: when every piece of information is shown the same way (a column of
+"label: value" pairs), users must read everything to find what matters.
+The screen is tidy but flat.
+Do: before designing, list what the screen shows and rank it by how much
+the user needs it. Then give the top items more size, weight, color or
+an icon, and let the rest step back.
+Don't: format every field identically because they're all "data".
+Example: a profile or account screen leads with the name and the one or
+two values people check most, styled larger; secondary details follow
+in a quieter style.
+Source: uxpeak, five UX/UI design tips (Playbook)
+
+## The value is louder than its label
+Why: on a number or a stat, the user came for the value. A big label
+("Sales") and a small number makes them hunt for what they wanted.
+Do: make the value the strongest text, and the label smaller and softer.
+Don't: give labels equal or greater weight than the values they name.
+Example: a summary card shows "591" large and "Sales" small beneath or
+above it; the same goes for balances, totals, scores and counts.
+Accessibility: softer labels still meet 4.5:1 contrast
+(see typography.md).
+Source: uxpeak, five UX/UI design tips (Playbook)
+
 ## Few things compete for attention
 Why: when many elements are bright, saturated or bold, nothing stands
 out, the screen gets harder to read and the hierarchy collapses.
@@ -56,10 +80,15 @@ Don't: invent a creative alternative (binoculars for search) or use a
 detailed illustration as an icon.
 Source: uxpeak, bottom navigation guide
 
-## Separators stay subtle
-Why: dividers exist to separate, not to be noticed. Heavy dark lines chop
-the screen into harsh blocks instead of one smooth experience.
-Do: use light, thin dividers, or space alone, to separate sections.
-Don't: use strong, dark divider lines.
+## Separators and depth stay subtle
+Why: dividers and shadows exist to separate, not to be noticed. Heavy
+dark lines or harsh shadows chop the screen into blocks and make it look
+unfinished.
+Do: use light, thin dividers, soft shadows, or space alone, to separate
+sections and lift cards.
+Don't: use strong, dark divider lines or hard, dark shadows.
+Accessibility: a soft shadow can vanish for low-vision users and in dark
+mode. When a card's edge matters (it's tappable, it groups content), back
+the shadow with a light outline or a slightly different background.
 Small details like this are often what makes an interface feel premium.
-Source: uxpeak, product page redesign
+Sources: uxpeak, product page redesign; uxpeak, five UX/UI design tips (Playbook)
