@@ -11,8 +11,8 @@ in principles/ and rules/ so you know what already exists.
   project's design system.
 - `principles/` = how people think (psychology). Usable in any feature, never
   tied to one screen type.
-- `rules/` = how a screen is built (imagery, layout, hierarchy, typography,
-  placement).
+- `rules/` = how a screen is built (choosing a view, imagery, layout,
+  hierarchy, typography, placement, wording, navigation, inputs, states).
 - `SKILL.md` = entry point with the core rule ("design for every case, not the
   demo case"), both indexes, and the honesty guardrails.
 - `sources.md` = every rule traces back to a source.

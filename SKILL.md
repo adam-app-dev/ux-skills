@@ -1,6 +1,6 @@
 ---
 name: ux-skills
-description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency, user stage, social proof) and concrete screen rules (imagery, layout, hierarchy, typography, placement, wording, navigation, inputs, states).
+description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency, user stage, social proof) and concrete screen rules (choosing a view, imagery, layout, hierarchy, typography, placement, wording, navigation, inputs, states).
 ---
 
 # UX Skills
@@ -71,6 +71,18 @@ Design for the system the screen lives in, not the one screenshot.
 | [Navigation](rules/navigation.md) | The backbone, not a toolbox | has a bottom bar, tabs, a side rail or moves between main sections |
 | [Inputs](rules/inputs.md) | Match the input to how often and how exactly | asks the user to enter numbers, amounts or values |
 | [States](rules/states.md) | Still works when there's nothing to show | can be empty, loading, failed or offline (lists, dashboards, search) |
+| [Choosing a view](rules/choosing-a-view.md) | The purpose picks the view | shows a set of items or data and you're choosing how (list, grid, cards, timeline, summary, calendar, map), or the user is unsure |
+
+## When the user is unsure or asks you to be creative
+
+1. Start from the feature's purpose: is the user here to scan, compare,
+   track, act fast, or enter data?
+2. Read [rules/choosing-a-view.md](rules/choosing-a-view.md).
+3. Propose 2 to 3 clearly different approaches, each with one line on
+   which rules support it. Recommend one, and wait for the user's choice.
+4. Creativity happens inside the rules and the design system, never
+   against them. If an idea breaks a rule, name the rule and let the
+   user decide.
 
 The common thread of the principles: people don't decide logically.
 They react to what is pre-chosen, what they already have, what they just
