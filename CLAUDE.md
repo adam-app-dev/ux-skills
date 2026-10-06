@@ -59,6 +59,10 @@ The user gives a YouTube link plus the transcript of a UX video. For each video:
 7. **Show the full git diff**, then commit with a clear message and push.
    The remote is already set up (`git@github.com-adam:adam-app-dev/ux-skills.git`);
    don't change it.
+8. **Remind the user:** the ux-skills rules are copied into design systems
+   in Claude Design, so they don't update by themselves. Tell them to open
+   each design system that has a `ux-skills/` folder (currently: Pet Design
+   System) and ask it to "sync ux-skills".
 
 ## How to talk to the user
 
