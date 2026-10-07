@@ -129,7 +129,8 @@ Example: a basket with "Remove" on each item, "Continue shopping" and
 Accessibility: a quiet action still gets a full-size tap area (see
 layout.md) and text that meets 4.5:1 contrast. A quiet delete needs an
 undo or a confirmation that names what goes (see loss-framing.md).
-Source: uxpeak, The UI/UX Playbook (book)
+Sources: uxpeak, The UI/UX Playbook (book); How to Design Better UI
+Components 3.0 (book)
 
 ## A destructive confirmation says what it destroys
 Why: a confirmation is the last chance to stop a mistake. A vague
