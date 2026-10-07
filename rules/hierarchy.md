@@ -116,6 +116,8 @@ Do: list the actions on the screen and give each a level. The main
 action is the strongest. Secondary actions stay visible but quieter
 (for example a neutral fill or an outline). Actions on single items and
 destructive ones (remove, delete) are the quietest, often just text.
+Quiet still means recognizable: a text action looks tappable (the
+action color, or an underline), not like plain text.
 Rank them by style, fill and weight, not by color alone. The same rank
 looks the same everywhere: the main button is identical on every card
 and every screen.

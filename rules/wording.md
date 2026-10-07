@@ -36,6 +36,19 @@ This repo only allows it with the price and charge date visible beside
 the button, which app stores and EU consumer rules require anyway.
 Source: uxpeak, three A/B test examples
 
+## Buttons are verbs that name the outcome
+Why: "OK", "Yes", "Submit" or "Click here" make people reread the
+question to know what the tap will do. Screen reader users often hear
+buttons out of context, where a bare "Yes" means nothing.
+Do: start the label with a verb and, when it helps, the object ("Save
+changes", "Delete photo", "Send 3 invites"), so the button makes sense
+on its own.
+Don't: use "OK", "Yes/No", "Submit" or "Click here" for actions with a
+specific outcome. People tap on phones, they don't click.
+See also: hierarchy.md (a destructive confirmation says what it
+destroys).
+Source: How to Design Better UI Components 3.0 (book)
+
 ## Do the math for the user
 Why: every calculation left to the user is a small reason to stop.
 Do: show totals, durations and counts already worked out: the total on

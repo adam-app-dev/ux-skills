@@ -48,6 +48,22 @@ progress.
 Source: platform guidelines (Apple HIG loading and progress indicators;
 Material Design 3 progress indicators)
 
+## Controls show every state they can be in
+Why: a button that looks the same when pressed, busy or unavailable
+leaves people tapping again, waiting for nothing, or unsure why nothing
+happens.
+Do: design each control's states: normal, pressed, focused (for
+keyboards on tablets and desktop), disabled, and loading. Make each one
+clearly different but calm. When the main button is disabled, say what
+is missing next to it ("Add a date to continue"), or keep it enabled and
+point to the missing field when tapped.
+Don't: disable a button with no explanation, or rely on a faded color
+alone to show it can't be used.
+Accessibility: disabled and busy states are announced to screen
+readers, and the keyboard focus is always visible.
+Note: hover states only exist with a mouse; on phones they don't apply.
+Source: How to Design Better UI Components 3.0 (book)
+
 ## An error says what happened and how to fix it
 Why: "Something went wrong" leaves the user stuck: they don't know if
 it's their fault, if their work is lost, or what to try next.
