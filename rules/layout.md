@@ -11,10 +11,12 @@ further right), users don't consciously notice, but they feel it.
 The screen feels less calm and less trustworthy.
 Do: use the same side margins for all content on a screen, and align text,
 icons, prices and buttons to the same edges.
-Don't: let individual elements drift a few pixels from the shared edge.
+Don't: let individual elements drift a few pixels from the shared edge,
+or mix start and center alignment inside one card or one group of
+similar items.
 Example: if content starts at the standard screen margin, every section
 starts there too, not just the first one.
-Source: uxpeak, product page redesign
+Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
 
 ## Space shows what belongs together
 Why: the gap between elements tells users which things are related.
@@ -24,7 +26,10 @@ consistently, from the spacing scale.
 Don't: add space just because white space looks "premium". Too much space
 in the wrong place disconnects things that belong together and makes the
 screen harder to scan.
-Source: uxpeak, product page redesign
+Example: in a form, each label sits clearly closer to its own field than
+to the field above it; with equal gaps, users can't tell which field a
+label belongs to.
+Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
 
 ## Spacing is consistent across the screen
 Why: inconsistent gaps make a layout feel accidental.

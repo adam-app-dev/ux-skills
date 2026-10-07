@@ -22,6 +22,23 @@ Accessibility limit: softer body text must still meet the minimum
 contrast for readable text (WCAG AA, 4.5:1). Never go below it.
 Source: uxpeak, product page redesign
 
+## Align text by what it is
+Why: the eye needs a fixed place to start each line. Text that starts
+somewhere different on every line is tiring to read, and numbers that
+don't line up are hard to compare.
+Do:
+- **Text people read** (paragraphs, lists, labels): align to the start
+  edge, so every line begins in the same place.
+- **Numbers people compare** (amounts, prices, columns of values): align
+  to the end edge, so units line up under units.
+- **Short standalone text** (a title, a one-line empty-state message, a
+  button label): centering is fine.
+In Compose, use start and end, never left and right, so the layout flips
+by itself for right-to-left languages.
+Don't: center paragraphs or lists longer than a couple of lines, or
+start-align a column of amounts the user compares.
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Small uppercase labels need room
 Why: small capital letters set tightly feel cramped and are harder to read.
 Do: add a little letter spacing to small uppercase labels.
