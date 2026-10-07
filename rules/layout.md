@@ -22,7 +22,10 @@ Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
 Why: the gap between elements tells users which things are related.
 Related items close together, unrelated items further apart.
 Do: use smaller gaps inside a group and larger gaps between groups,
-consistently, from the spacing scale.
+consistently, from the spacing scale. When unsure, start with generous
+gaps between groups and tighten them step by step, stopping while the
+groups still read as separate. Clutter is easy to miss when you start
+cramped; looseness is easy to see and fix.
 Don't: add space just because white space looks "premium". Too much space
 in the wrong place disconnects things that belong together and makes the
 screen harder to scan.
