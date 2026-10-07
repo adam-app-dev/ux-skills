@@ -91,6 +91,8 @@ Source: uxpeak, bottom navigation guide
 Why: a screen that looks right on a big monitor can feel cramped,
 tiny or hard to reach in the hand.
 Do: try the design on a real device, held in one hand, on a small and a
-large phone.
+large phone. Design the smallest supported phone first: if everything
+fits and stays clear there, scaling up is easy; the reverse rarely is.
 Don't: approve tap sizes and spacing only from a desktop preview.
-Source: uxpeak, bottom navigation guide
+Sources: uxpeak, bottom navigation guide; How to Design Better UI
+Components 3.0 (book)
