@@ -53,6 +53,19 @@ Don't: cut off essential text to force equal heights. Translations
 row grow to fit the tallest card instead.
 Source: uxpeak, The UI/UX Playbook (book)
 
+## Wide screens don't stretch phone content
+Why: a form, a button or a block of text stretched across a tablet or
+desktop window becomes hard to read and scan, and the eye travels far
+between a label and the end of its field.
+Do: on wide screens, give focused content (forms, sign-in, checkout,
+settings, reading text) a sensible maximum width and center it, or use
+the extra width for a second pane (list and detail side by side).
+Don't: stretch fields and buttons edge to edge just because the space
+is there.
+See also: typography.md (comfortable line length), navigation.md (on
+wide screens, the bar moves to the side).
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Content stays inside the safe area
 Why: modern phones have a home swipe bar, rounded corners and camera
 cut-outs. Controls placed under them are hard to tap, and a tap near the
