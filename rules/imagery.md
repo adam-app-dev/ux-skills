@@ -19,6 +19,9 @@ Example: back and favorite icons over a header photo look fine on a dark
 image and vanish on a bright one (a pineapple, a white dog).
 Note: blur isn't available everywhere (in Compose, `Modifier.blur` needs
 Android 12 or later). Where it isn't, fall back to the gradient.
+Text on a blurred or "glass" panel still needs 4.5:1 contrast on every
+background it can land on, and the panel turns solid when the phone's
+"Reduce transparency" setting is on.
 Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
 
 ## Every image has one clear focal point

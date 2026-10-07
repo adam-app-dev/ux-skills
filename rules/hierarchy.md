@@ -135,9 +135,30 @@ dark lines or harsh shadows chop the screen into blocks and make it look
 unfinished.
 Do: use light, thin dividers, soft shadows, or space alone, to separate
 sections and lift cards.
-Don't: use strong, dark divider lines or hard, dark shadows.
+Don't: use strong, dark divider lines or hard, dark shadows, or stack
+several separators on one group (a border, plus a background color,
+plus dividers). Pick one per area: space, a light line, or a background
+change.
 Accessibility: a soft shadow can vanish for low-vision users and in dark
 mode. When a card's edge matters (it's tappable, it groups content), back
 the shadow with a light outline or a slightly different background.
 Small details like this are often what makes an interface feel premium.
-Sources: uxpeak, product page redesign; uxpeak, five UX/UI design tips (Playbook)
+Sources: uxpeak, product page redesign; uxpeak, five UX/UI design tips (Playbook);
+uxpeak, The UI/UX Playbook (book)
+
+## Depth shows what sits on top
+Why: depth tells users what is part of the page and what floats above
+it. A menu or a control without lift blends into whatever is behind it,
+especially over busy content like a map or a photo.
+Do: give more lift to things that float above the content (menus,
+sheets, dialogs, controls over a map or photo) than to cards resting in
+the page. Let the amount of lift follow how far above the page the
+element sits, using the design system's levels.
+Don't: add strong shadows as decoration, or give resting cards as much
+lift as a dialog.
+Accessibility: in dark mode shadows nearly vanish; show lift with a
+slightly lighter surface or an outline instead (Material does this with
+tonal elevation).
+See also: imagery.md (anything on top of a photo gets its own
+background).
+Source: uxpeak, The UI/UX Playbook (book)
