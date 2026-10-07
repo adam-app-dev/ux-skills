@@ -145,3 +145,16 @@ Accessibility: the toggle is labeled ("Show password") and announces
 its state; requirement checks and any strength meter are given in
 words, not color alone.
 Source: uxpeak, The UI/UX Playbook (book)
+
+## Fields and controls have a visible edge
+Why: a text field with a barely-there outline, or a button whose shape
+fades into the background, makes people unsure what they can type into
+or tap, especially low-vision users and anyone in bright light.
+Do: give fields, checkboxes, switches and outlined buttons an edge or
+fill that stands out from the background at 3:1 contrast or more (the
+WCAG minimum for controls), and keep text inside them at 4.5:1.
+Don't: rely on a very light outline or a faint fill as the only sign
+that something is a field or a button.
+Note: the source labels these minimums "WCAG 3.0"; they come from
+WCAG 2.1 and 2.2 level AA.
+Source: How to Design Better UI Components 3.0 (book)

@@ -73,11 +73,25 @@ one meaning across the whole app (green always means done or good), and
 let the word carry the meaning, so color is never the only signal.
 Follow the common conventions: red for errors, amber for warnings, green
 for success. Tune the shade to the brand, never the meaning.
+Note: color meanings differ by culture (in some markets, such as China,
+red means a price going up). For finance or global apps, check what
+the market reads into each color.
 Don't: put white text on light or saturated fills without checking,
 reuse a status color for a different status, or swap a convention for
 the brand color (pink for success, yellow for errors).
 See also: typography.md (badges are scannable).
 Source: uxpeak, The UI/UX Playbook (book)
+
+## The screen still works in grayscale
+Why: if the hierarchy only exists in color, it fails for colorblind
+users, on a poor screen in sunlight, and the moment the palette
+changes. Structure should carry the screen; color should only add to it.
+Do: check the screen in grayscale (or design it that way first). The
+main action, the current state, errors and the reading order must
+still be clear from size, weight, position, shape and words.
+Don't: rely on hue alone to separate the main action, a selected item
+or a status from the rest.
+Source: How to Design Better UI Components 3.0 (book)
 
 ## The title stands out without shouting
 Why: the title tells users what they're looking at, so it must be easy to
