@@ -78,3 +78,17 @@ readers, not shown by color alone.
 Note: the platform guides say little about offline; this rule is
 common practice, in line with their loading and error guidance.
 Source: common practice; platform guidelines (loading, errors)
+
+## A missing page is never a dead end
+Why: an old link, a deleted item or a moved page lands the user on
+"Not found" with nowhere to go. They didn't do anything wrong, and a
+bare message makes them feel stuck.
+Do: say plainly what's missing ("This item was deleted or moved"), then
+offer ways forward: search, the list it came from, home, or the most
+likely related items. A touch of the app's personality is fine.
+Don't: show only an error code, blame the user, or let a joke replace
+the explanation and the way back.
+Example: opening a shared link to a removed item shows "This item is no
+longer available", a search field, and the newest similar items.
+See also: "An error says what happened and how to fix it" above.
+Source: uxpeak, The UI/UX Playbook (book)
