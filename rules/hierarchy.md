@@ -59,6 +59,25 @@ Do: one primary button, clearly the strongest action, in normal case.
 Don't: use all caps or oversized buttons to force attention.
 Source: uxpeak, product page redesign
 
+## Every action has a rank
+Why: when several buttons look alike, users stop to work out which one
+moves them forward. Giving each button its own color doesn't solve it:
+three bright buttons are still three equal buttons.
+Do: list the actions on the screen and give each a level. The main
+action is the strongest. Secondary actions stay visible but quieter
+(for example a neutral fill or an outline). Actions on single items and
+destructive ones (remove, delete) are the quietest, often just text.
+Rank them by style, fill and weight, not by color alone.
+Don't: show every action as the same full button, or tell them apart
+only by color.
+Example: a basket with "Remove" on each item, "Continue shopping" and
+"Pay": "Pay" is the strong button, "Continue shopping" a quiet one,
+"Remove" a small text action on each row.
+Accessibility: a quiet action still gets a full-size tap area (see
+layout.md) and text that meets 4.5:1 contrast. A quiet delete needs an
+undo or a confirmation that names what goes (see loss-framing.md).
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Icons share one visual style
 Why: mixed icon styles (some filled, some outlined, some heavy, some
 light, many colors) make a section feel messy and pull too much attention.

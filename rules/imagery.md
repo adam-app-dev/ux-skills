@@ -72,6 +72,19 @@ Note: this is about images that drive the decision. Lists, settings and
 data screens don't need large images.
 Source: uxpeak, three A/B test examples
 
+## When the image only identifies the item, keep it small
+Why: in a basket, a list or a summary, the user already knows what the
+item is. The picture is a reminder; the name, amount and actions are what
+they came for. An oversized image pushes those aside and makes every row
+taller to scan.
+Do: keep the image small enough that the name and value lead the row,
+and the same size for every row.
+Don't: carry the large image from the detail screen into lists and
+summaries.
+See also: "When the image is the thing being chosen, give it room" above
+(the opposite case), and hierarchy.md (rank the information).
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Images that appear together follow one visual system
 Why: a single beautiful image can still make a list feel messy if every
 item has different backgrounds, lighting and props.

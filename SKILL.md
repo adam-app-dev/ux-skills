@@ -64,7 +64,7 @@ Design for the system the screen lives in, not the one screenshot.
 |---|---|---|
 | [Imagery](rules/imagery.md) | Works on any photo | shows photos, especially with anything on top of them |
 | [Layout](rules/layout.md) | One grid, meaningful space | has more than one section (almost always) |
-| [Hierarchy](rules/hierarchy.md) | Clear, never shouting | has a title, a main action, stats or values, icons, colors, dividers or shadows |
+| [Hierarchy](rules/hierarchy.md) | Clear, never shouting | has a title, buttons or actions, stats or values, icons, colors, dividers or shadows |
 | [Typography](rules/typography.md) | Headlines attract, paragraphs support | has text beyond a single label |
 | [Placement](rules/placement.md) | Put it where the user needs it | has information the user needs to decide or act |
 | [Wording](rules/wording.md) | Specific words do the convincing | has buttons, titles, dates, totals or helper lines |
