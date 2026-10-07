@@ -115,3 +115,33 @@ Don't: make many-item tasks a long series of single taps when the app
 could do them together.
 See also: "A selection means what the action says" above.
 Source: uxpeak, The UI/UX Playbook (book)
+
+## The field's shape matches the data
+Why: a field's size and form tell the user what goes in it before they
+read the label. A long box for a three-digit code or a single box for a
+six-digit code makes people unsure and invites mistakes.
+Do: size each field for what it holds (short fields side by side for
+expiry date and security code, a long one for a card number or
+address), and show short codes as one box per character when that
+makes the length clear.
+Don't: give every field the same full width, or split a value into
+boxes that behave like separate fields.
+Accessibility: per-character code boxes act as one field: one label for
+screen readers, paste works, backspace moves back, and the phone can
+autofill the code from a message (in Compose, the one-time-code content
+type). Short side-by-side fields stack when the text size is large.
+Source: uxpeak, The UI/UX Playbook (book)
+
+## Passwords: one field, with show and hide
+Why: a "confirm password" field doubles the typing and still misses a
+typo typed twice. Seeing the password is the better check. Requirements
+discovered only after submitting feel like a trap.
+Do: use one password field with a show/hide toggle, list the
+requirements before the user types, and tick them off as they are met.
+Let password managers fill and save it.
+Don't: add a confirm-password field, or reveal the rules only in an
+error after submitting.
+Accessibility: the toggle is labeled ("Show password") and announces
+its state; requirement checks and any strength meter are given in
+words, not color alone.
+Source: uxpeak, The UI/UX Playbook (book)

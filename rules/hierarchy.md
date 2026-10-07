@@ -115,6 +115,23 @@ layout.md) and text that meets 4.5:1 contrast. A quiet delete needs an
 undo or a confirmation that names what goes (see loss-framing.md).
 Source: uxpeak, The UI/UX Playbook (book)
 
+## A destructive confirmation says what it destroys
+Why: a confirmation is the last chance to stop a mistake. A vague
+question with "OK" and "Cancel", or a delete button in a calm, positive
+color, makes people confirm without noticing what they're agreeing to.
+Do: in the confirmation, name what will be lost in the title, label the
+confirming button with the action itself ("Delete", "Remove 3 items"),
+give it the destructive color, and always offer "Cancel". Use the
+platform's standard dialog, which already places the buttons the way
+people expect.
+Don't: use "OK" or "Yes" for a destructive action, color it as a
+positive or safe action, or leave out the way back.
+Note: on the screen itself the delete action stays quiet (see "Every
+action has a rank"); only inside its own confirmation is it the main
+button.
+See also: loss-framing.md (name exactly what goes away).
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Icons share one visual style
 Why: mixed icon styles (some filled, some outlined, some heavy, some
 light, many colors) make a section feel messy and pull too much attention.
