@@ -106,6 +106,23 @@ own screen, when a few fields on one screen would do.
 Example: adding an entry, editing a profile, a settings group.
 Source: platform guidelines (Material Design 3 text fields; Apple HIG)
 
+## Creating something others will see → a form shaped like the result
+Why: a plain column of fields hides what the user is actually making.
+When the form looks like the finished thing, they understand each field's
+role at once and see their creation take shape as they fill it in.
+Do: when the user creates something that will be displayed (a listing,
+a profile, a post, an event), lay the form out like the final result:
+the photo slot where the photo will be, name and price where they'll
+appear. Keep a visible label on every field.
+Don't: rely on placeholder text as the only label, or let the visual
+arrangement scramble the order fields are filled in.
+Accessibility: screen readers and the keyboard move through the fields
+in reading order, and an empty photo slot is announced as a button
+("Add photo").
+See also: ownership.md (what I built is mine), "Entering data → a form"
+above.
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## When dates matter most → a calendar
 Why: when the user plans around days ("what's on Friday?", "is the 12th
 free?"), a calendar shows the shape of the week or month at a glance.

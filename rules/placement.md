@@ -48,6 +48,20 @@ Add units inside controls where they apply ("1 kg", "2 doses").
 Don't: place a selector far from the button that uses its value.
 Source: uxpeak, product page redesign
 
+## Inside an item, follow the order people decide in
+Why: the same elements read very differently depending on their order.
+A card that opens with the price, or puts the button before the
+description, asks the user to judge or act before they know what it is.
+Do: inside a card or item block, go from recognizing it (image, name),
+to understanding it (one short detail), to its cost or key value, and
+end with the action. The button comes after the information it acts on.
+Don't: lead with the price or the button, or put the description below
+the button where it's read after the decision.
+Note: this is the order inside one compact item, where everything is
+visible at once. On a long screen, "Key information comes early" still
+applies: the price must not be pushed far down.
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Fixed text never holds a changeable value
 Why: if a title says "1 kg" but the user can change the quantity, the
 title becomes wrong.
