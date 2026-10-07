@@ -89,3 +89,29 @@ view simple.
 Don't: pre-select an upsell inside the revealed options, or hide
 something the user needs to decide correctly.
 Source: uxpeak, product page conversion redesign
+
+## Never ask for what you already know or can look up
+Why: every field the user types costs time and invites typos. Much of
+it is already known (saved details, their last entry) or can be looked
+up (an address from a few letters).
+Do: fill in what the app already has, offer search-as-you-type for
+addresses and places, and let the phone's autofill work (in Compose,
+give fields their content type, such as email or postal address).
+Keep everything editable.
+Don't: ask again for details the user gave earlier in the same flow,
+or block the phone's autofill and password managers.
+Note: saved payment or personal details are reused only with the
+user's consent, and the user can remove them.
+See also: smart-defaults.md.
+Source: uxpeak, The UI/UX Playbook (book)
+
+## Repeated actions can be done in bulk
+Why: when users must apply the same action to many items (archive,
+move, mark as done, delete), doing it one by one is slow and tedious.
+Do: let users select several items and act on all of them at once,
+with the count in the button ("Archive 12"). For actions that can't be
+undone, confirm with the count.
+Don't: make many-item tasks a long series of single taps when the app
+could do them together.
+See also: "A selection means what the action says" above.
+Source: uxpeak, The UI/UX Playbook (book)

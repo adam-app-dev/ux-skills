@@ -22,8 +22,8 @@ Do: name the screen's task (pay, check today, change a setting), keep
 what helps with it, and move everything else to where it's relevant
 (a detail screen, settings, "See all").
 Don't: fill a task screen with details that belong elsewhere (view
-counts, full specifications, unrelated suggestions), or remove what the
-user needs to decide.
+counts, full specifications, unrelated suggestions), interrupt it with
+pop-ups or moving banners, or remove what the user needs to decide.
 Example: a basket shows each item's name, chosen options, quantity,
 price and the total; how many people viewed the item stays on the item's
 own page.
@@ -152,3 +152,32 @@ Note: this applies to phones. On tablets and desktop windows, follow
 navigation.md (wide screens).
 See also: "The main action stays reachable" above.
 Source: uxpeak, top UI design tips part 2
+
+## An ongoing activity keeps its controls in view
+Why: when something keeps running while the user moves around the app
+(audio playing, a timer, a workout, an upload, a call), they need to
+pause or stop it at any moment. Making them go back to its screen to do
+that is slow and stressful.
+Do: while the activity runs, keep a small bar with its status and main
+controls (pause, stop) visible on every screen, near the bottom, and
+let a tap open the full screen.
+Don't: hide a running activity's controls behind navigation, or let
+the bar cover the screen's own main action.
+Accessibility: the bar's controls have labels ("Pause timer") and the
+status is readable by screen readers.
+Source: uxpeak, The UI/UX Playbook (book)
+
+## Show it, don't make them remember it
+Why: remembering is harder than recognizing. Every time the user must
+recall where they stopped, what they chose two screens ago, or a code
+from another screen, the app is using their memory instead of the
+screen.
+Do: when people return, offer to pick up where they left off (the
+unfinished entry, the item they were viewing, the step they reached).
+Inside a flow, show earlier choices and needed details again on the
+screen that uses them.
+Don't: make users note down or remember information from one screen to
+use on the next, or restart a half-finished task from zero.
+See also: easy-question.md (show earlier decisions back),
+where-they-are.md (returning users).
+Source: uxpeak, The UI/UX Playbook (book)
