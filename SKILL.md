@@ -69,7 +69,7 @@ Design for the system the screen lives in, not the one screenshot.
 | [Placement](rules/placement.md) | Put it where the user needs it | has information the user needs to decide or act |
 | [Wording](rules/wording.md) | Specific words do the convincing | has buttons, titles, dates, totals or helper lines |
 | [Navigation](rules/navigation.md) | The backbone, not a toolbox | has a bottom bar, tabs, a side rail or moves between main sections |
-| [Inputs](rules/inputs.md) | Match the input to how often and how exactly | asks the user to enter numbers, amounts or values |
+| [Inputs](rules/inputs.md) | Match the input to how often and how exactly | asks the user to enter numbers, amounts or values, or to pick or select options |
 | [States](rules/states.md) | Still works when there's nothing to show | can be empty, loading, failed or offline (lists, dashboards, search) |
 | [Choosing a view](rules/choosing-a-view.md) | The purpose picks the view | shows a set of items or data and you're choosing how (list, grid, cards, timeline, summary, calendar, map), or the user is unsure |
 

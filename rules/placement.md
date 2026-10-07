@@ -14,6 +14,25 @@ Don't: push a deciding piece of information (like the price) far down
 the screen.
 Source: uxpeak, product page redesign
 
+## Each screen shows what its task needs, no more and no less
+Why: every extra button, figure or line competes with the task the user
+came for. But cutting too far is just as bad: a screen without the facts
+needed to act leaves the user guessing.
+Do: name the screen's task (pay, check today, change a setting), keep
+what helps with it, and move everything else to where it's relevant
+(a detail screen, settings, "See all").
+Don't: fill a task screen with details that belong elsewhere (view
+counts, full specifications, unrelated suggestions), or remove what the
+user needs to decide.
+Example: a basket shows each item's name, chosen options, quantity,
+price and the total; how many people viewed the item stays on the item's
+own page.
+Note: the source treats a return-policy note in a basket as clutter.
+This repo keeps the terms the user is agreeing to (total, fees,
+cancellation) next to the pay step: they are part of the task (see
+show-the-catch.md).
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Trust information sits next to what it confirms
 Why: ratings and reviews are among the strongest trust signals. Users
 ask "what is it?" and "can I trust it?" in the same moment.

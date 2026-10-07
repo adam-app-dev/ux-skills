@@ -99,6 +99,21 @@ Don't: invent a creative alternative (binoculars for search) or use a
 detailed illustration as an icon.
 Source: uxpeak, bottom navigation guide
 
+## Icons come with a name
+Why: an icon alone looks clean but makes users guess. A row of icon-only
+switches or tiles can mean many things, and a wrong guess turns
+something on or off by mistake.
+Do: give every icon that sits next to a control (a switch, a tile, a
+setting, a filter) a short visible text name. Icon-only is fine only for
+a few universal symbols in top bars (back, search, close), and those
+still get an accessible label.
+Don't: strip names to make a screen look simpler. Too little
+information is as unclear as too much.
+Accessibility: a switch is read with its name and state ("Lights, off";
+in Compose, via semantics), and "on" is shown by more than color.
+See also: navigation.md (every tab has a label).
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Separators and depth stay subtle
 Why: dividers and shadows exist to separate, not to be noticed. Heavy
 dark lines or harsh shadows chop the screen into blocks and make it look

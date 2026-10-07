@@ -58,6 +58,17 @@ a plain list, a searchable list or a dropdown. Cards are for short sets
 of meaningful choices.
 Sources: uxpeak, product page conversion redesign; uxpeak, top UI design tips part 2
 
+## A selection means what the action says
+Why: when "checked" means the opposite of what the button does, users
+must reverse the logic in their head, and some will get it wrong.
+Do: make the checked items the ones the action applies to, and say it
+plainly in the instruction and the button ("Select items to remove" →
+"Remove 2 items").
+Don't: write instructions with double negatives ("Unselect the items you
+want to remove"), or make a checkbox mean "keep" on a screen whose button
+removes.
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## The chosen option explains itself
 Why: at the moment of choosing, people hesitate over "what will this be
 like?". A short answer right there removes the doubt.
