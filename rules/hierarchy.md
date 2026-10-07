@@ -41,8 +41,27 @@ Source: uxpeak, product page redesign
 Why: color sets the mood and directs the eye. Random colors confuse both.
 Do: use several colors only when each has a job (status, category, action).
 Keep the palette calm enough that the content stays the focus.
-Don't: give every icon or badge its own color "to make it lively".
-Source: uxpeak, product page redesign
+Save the main accent color mostly for what people can tap or have
+selected (buttons, links, the current tab), so the color itself says
+"you can act here". Keep backgrounds neutral.
+Don't: give every icon or badge its own color "to make it lively", or
+use a strong color as the background of a content screen. Save it for
+small areas or brief moments (a header, a splash screen, a celebration).
+Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
+
+## Every screen works in light and dark
+Why: many people keep their phone in dark mode, especially in low light,
+and expect every app to follow it. Colors, contrast and shadows that
+work on a light background often fail on a dark one, and the reverse.
+Do: follow the phone's light or dark setting, and check each screen in
+both: text contrast (4.5:1), status colors, images with overlays, and
+how depth shows (see "Depth shows what sits on top").
+Don't: design only the light version and invert it, or force one mode
+with no way to follow the system.
+Note: the source says dark backgrounds reduce eye strain. Evidence on
+that is mixed; this repo treats dark mode as a common preference, not a
+health benefit.
+Source: uxpeak, The UI/UX Playbook (book)
 
 ## Colored labels stay readable
 Why: status tags and chips (Blocked, In progress, Paid) are often white
@@ -52,8 +71,11 @@ Do: give a tag a soft tint of its color as background and a dark shade
 of the same color as text, and check it meets 4.5:1. Keep each color to
 one meaning across the whole app (green always means done or good), and
 let the word carry the meaning, so color is never the only signal.
-Don't: put white text on light or saturated fills without checking, or
-reuse a status color for a different status.
+Follow the common conventions: red for errors, amber for warnings, green
+for success. Tune the shade to the brand, never the meaning.
+Don't: put white text on light or saturated fills without checking,
+reuse a status color for a different status, or swap a convention for
+the brand color (pink for success, yellow for errors).
 See also: typography.md (badges are scannable).
 Source: uxpeak, The UI/UX Playbook (book)
 

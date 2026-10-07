@@ -25,7 +25,8 @@ Before delivering, test it in your head against the real range:
 - Lists: empty, one item, a hundred items
 - Numbers: zero, huge, negative, with decimals
 - States: loading, error, offline
-- Devices: small phone, large phone, wide screen, large text setting
+- Devices: small phone, large phone, wide screen, large text setting,
+  light and dark mode
 
 Design for the system the screen lives in, not the one screenshot.
 
