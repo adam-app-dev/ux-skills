@@ -26,6 +26,19 @@ and it must not push the button below the fold on small phones.
 See also: where-they-are.md (newcomers see empty states most).
 Source: uxpeak, top UI design tips part 2
 
+## "No results" offers a next step
+Why: a search or filter that returns nothing is a dead end unless the
+screen helps. The user doesn't know if the item doesn't exist or they
+just asked the wrong way.
+Do: repeat what was searched ("No results for 'blu sofa'"), suggest a
+fix (a corrected spelling, removing a filter, a broader term), and show
+something useful: close matches, popular items or categories. Keep the
+query in the field so it's easy to edit.
+Don't: show only "No results", or clear the query and filters the user
+set.
+See also: "An empty screen shows the way forward" above.
+Source: How to Design Better UI Components 3.0 (book)
+
 ## Loading shows something right away
 Why: a blank screen while content loads looks like a broken app. Showing
 something at once tells the user it's working and how long to expect.

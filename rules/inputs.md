@@ -215,3 +215,20 @@ progress that isn't real.
 See also: head-start.md (count real progress), placement.md (show it,
 don't make them remember it).
 Source: How to Design Better UI Components 3.0 (book)
+
+## Search helps while the user types
+Why: people rarely know the exact word the app uses. A search box that
+waits for a perfect query and then answers "nothing" makes them guess
+again and again.
+Do: when search is central to the app, put it where it's seen at once
+(top of the main screen or its own tab). Use the placeholder for an
+example of what can be searched ("Search recipes or ingredients"),
+suggest matches as the user types, tolerate typos and plurals, and
+offer a one-tap clear button.
+Don't: hide a main search behind a menu, or make the user press
+"Search" before seeing anything.
+Accessibility: the field has a label, not just a placeholder; the
+number of suggestions is announced as it changes.
+See also: smart-defaults.md (empty search shows recent and popular),
+states.md (no results).
+Source: How to Design Better UI Components 3.0 (book)

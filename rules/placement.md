@@ -184,3 +184,19 @@ use on the next, or restart a half-finished task from zero.
 See also: easy-question.md (show earlier decisions back),
 where-they-are.md (returning users).
 Source: uxpeak, The UI/UX Playbook (book)
+
+## Dialogs are for what can't wait
+Why: a dialog stops everything. Used for small things (a tip, a promo,
+a minor error), it trains people to dismiss dialogs without reading,
+including the one that matters.
+Do: keep dialogs for decisions that must happen before going on: a
+destructive or costly confirmation, or an essential permission at the
+moment it's needed. Show other messages inline or as a short message
+at the bottom. Every dialog and sheet has a clear way out (a close or
+cancel button, and the system back gesture); non-critical ones also
+close when tapping outside.
+Don't: open dialogs for errors that fit next to the field, stack one
+dialog on another, or remove the way out to force a choice.
+See also: hierarchy.md (a destructive confirmation says what it
+destroys), states.md (errors).
+Source: How to Design Better UI Components 3.0 (book)
