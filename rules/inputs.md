@@ -61,6 +61,20 @@ a plain list, a searchable list or a dropdown. Cards are for short sets
 of meaningful choices.
 Sources: uxpeak, product page conversion redesign; uxpeak, top UI design tips part 2
 
+## Long lists of options open with search
+Why: scrolling a small dropdown of forty countries or currencies on a
+phone is slow and error-prone; people know what they want and just
+need to type a few letters.
+Do: on phones, open a long list of options as a sheet or full screen
+with a search field at the top, the most likely choices first (recent,
+common, or detected), and the current choice marked. When several can
+be picked, show how many are selected and offer "Clear".
+Don't: squeeze a long list into a small scrolling dropdown, or make
+people scroll the whole alphabet to reach their option.
+Accessibility: the search field is focused when the sheet opens, and
+the selected option is announced.
+Source: How to Design Better UI Components 3.0 (book)
+
 ## A selection means what the action says
 Why: when "checked" means the opposite of what the button does, users
 must reverse the logic in their head, and some will get it wrong.
