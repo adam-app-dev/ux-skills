@@ -22,6 +22,35 @@ Accessibility limit: softer body text must still meet the minimum
 contrast for readable text (WCAG AA, 4.5:1). Never go below it.
 Source: uxpeak, product page redesign
 
+## Long text keeps a comfortable line length
+Why: very long lines make the eye lose its place when jumping back to
+the start of the next line; very short lines break every few words.
+Both make reading tiring.
+Do: keep reading text to a comfortable width. On a phone in portrait
+this mostly happens by itself. On tablets, landscape and desktop
+windows, cap the width of the text column instead of stretching it
+across the screen. As a rough guide: about 45 to 75 characters per line
+on wide screens, and roughly 30 to 40 on phones.
+Don't: let paragraphs run edge to edge on a wide window.
+Note: the character ranges are common guidance from print and web
+reading, not exact limits; treat them as a rough guide.
+See also: navigation.md (on wide screens, the bar moves to the side).
+Source: uxpeak, The UI/UX Playbook (book)
+
+## Long text comes in short, labeled pieces
+Why: a long block of text looks like work, so people skip it, including
+the one line they needed. Short paragraphs and subheadings let them scan
+for their part and stop there.
+Do: split any text longer than a few lines (help, descriptions, terms,
+onboarding) into short paragraphs, one idea each, with a subheading
+that says what the piece is about.
+Don't: put several ideas in one long paragraph, or write subheadings
+that are decorative rather than descriptive.
+Accessibility: subheadings are marked as headings so screen reader users
+can jump between them (in Compose, semantics `heading()`); icons next to
+subheadings are decorative and hidden from screen readers.
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Align text by what it is
 Why: the eye needs a fixed place to start each line. Text that starts
 somewhere different on every line is tiring to read, and numbers that
