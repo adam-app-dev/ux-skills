@@ -48,10 +48,14 @@ Do: give cards shown side by side (a two-column grid, a carousel) the
 height of the tallest one, and pin their actions to the bottom so they
 line up. When you write the text, keep headings and descriptions
 roughly the same length.
-Don't: cut off essential text to force equal heights. Translations
-(Italian, German) and larger text settings make lengths vary; let the
-row grow to fit the tallest card instead.
-Source: uxpeak, The UI/UX Playbook (book)
+Supporting text (a description, a preview) may be cut to a fixed number
+of lines with an ellipsis, as long as the full text is one tap away.
+Don't: cut off essential text (names, prices, dates, status) to force
+equal heights. Translations (Italian, German) and larger text settings
+make lengths vary; let the row grow to fit the tallest card instead.
+Accessibility: screen readers read the full text, not the shortened one.
+Sources: uxpeak, The UI/UX Playbook (book); How to Design Better UI
+Components 3.0 (book)
 
 ## Wide screens don't stretch phone content
 Why: a form, a button or a block of text stretched across a tablet or
