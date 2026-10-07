@@ -14,7 +14,11 @@ Do: include only the main destinations people use often (home, search,
 the main list, messages, profile).
 Don't: put rarely used things in the bar (help, log out, legal pages,
 settings details). They belong in the profile or settings screen.
-Source: uxpeak, bottom navigation guide
+Don't repeat a tab's destination elsewhere on the same screen (a search
+icon in the top bar and a Search tab, a profile avatar and a Profile
+tab): each duplicate is one more thing to scan and wonder about.
+Sources: uxpeak, bottom navigation guide; How to Design Better UI
+Components 3.0 (book)
 
 ## Familiar beats clever
 Why: people spend most of their time in other apps and expect yours to
