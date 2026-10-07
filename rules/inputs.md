@@ -50,6 +50,9 @@ swatches or cards, each with a text name. Mark the selected one with
 more than color (a check, a border, bold text).
 Don't: hide two or three choices in a dropdown, or use color or icon
 swatches without a name (screen readers and colorblind users need it).
+When only one option can be picked, it behaves like a radio (choosing one
+clears the other); when several can, like checkboxes. Make the
+difference visible.
 Example: sizes, flavors, plan lengths or categories as a row of chips.
 When options need more context, use selectable cards with a label, a
 short description and an icon, instead of a plain text list.
@@ -157,4 +160,44 @@ Don't: rely on a very light outline or a faint fill as the only sign
 that something is a field or a button.
 Note: the source labels these minimums "WCAG 3.0"; they come from
 WCAG 2.1 and 2.2 level AA.
+Source: How to Design Better UI Components 3.0 (book)
+
+## Mark the optional fields, not the required ones
+Why: most fields in a good form are needed, so a row of red asterisks
+adds noise and makes the form feel strict. Marking the few exceptions
+is quieter and just as clear.
+Do: ask only for what's needed, then mark the few optional fields with
+the word "(optional)" next to the label.
+Don't: put an asterisk on every field, or rely on a red dot that screen
+readers and colorblind users may miss.
+Accessibility: required fields are still marked as required for screen
+readers (in Compose, via semantics), even when it isn't shown visually.
+Source: How to Design Better UI Components 3.0 (book)
+
+## Check each field as soon as it's done
+Why: finding five errors only after tapping "Continue" means scrolling
+back up and redoing work. Checking each field right after the user
+finishes it lets them fix it while it's in mind.
+Do: show the expected format before typing (helper text such as
+"DD/MM/YYYY"), check a field when the user leaves it, and once a field
+has shown an error, update it as they type so the error clears the
+moment it's fixed. Confirm valid input quietly (a check mark).
+Don't: show an error while the user is still typing the first time, or
+check only on submit. Never use placeholder text as the field's only
+label: it disappears on typing.
+See also: states.md (an error says what happened and how to fix it).
+Source: How to Design Better UI Components 3.0 (book)
+
+## Long forms come in steps
+Why: a single screen with twenty fields looks like a wall and invites
+quitting. Steps let people focus on one group at a time and see how far
+they've come.
+Do: split long forms into a few steps of related fields, show the
+current step and the total ("Step 2 of 4"), let people go back without
+losing what they entered, and show a summary to review before the
+final step.
+Don't: split a short form into steps just for the effect, or show
+progress that isn't real.
+See also: head-start.md (count real progress), placement.md (show it,
+don't make them remember it).
 Source: How to Design Better UI Components 3.0 (book)

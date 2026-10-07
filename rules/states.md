@@ -64,6 +64,19 @@ readers, and the keyboard focus is always visible.
 Note: hover states only exist with a mouse; on phones they don't apply.
 Source: How to Design Better UI Components 3.0 (book)
 
+## A finished action confirms itself
+Why: after sending, saving or paying, silence makes people wonder
+whether it worked, so they tap again or leave unsure.
+Do: confirm every completed action in proportion to its weight: a
+short message for small saves ("Saved"), with "Undo" when it can be
+reversed; a clear success screen for big ones (payment, booking,
+application) that says what happens next.
+Don't: end a big flow on a blank screen or just bounce the user back
+with no message, or celebrate so loudly that a quick task feels slow.
+Accessibility: confirmations are announced to screen readers.
+See also: placement.md (status screens open with the answer).
+Source: How to Design Better UI Components 3.0 (book)
+
 ## An error says what happened and how to fix it
 Why: "Something went wrong" leaves the user stuck: they don't know if
 it's their fault, if their work is lost, or what to try next.
