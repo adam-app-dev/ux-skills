@@ -16,11 +16,29 @@ Source: uxpeak, product page redesign
 ## Headlines attract, paragraphs support
 Why: body text should help users understand, not fight for attention.
 Do: give paragraphs comfortable line height so they are easy to read,
-and a slightly softer color than headlines.
-Don't: set body text with tight lines or at full headline strength.
+and a slightly softer color than headlines. Headings get tighter line
+height than paragraphs: the bigger the text, the less room it needs
+between lines.
+Don't: set body text with tight lines or at full headline strength, or
+in thin and extra-light weights, which break up on small screens and in
+bright light. Reading text stays at regular weight or heavier.
 Accessibility limit: softer body text must still meet the minimum
 contrast for readable text (WCAG AA, 4.5:1). Never go below it.
-Source: uxpeak, product page redesign
+Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
+
+## Text is never small, and grows with the phone's setting
+Why: small text is the most common reason people squint, zoom or give
+up, and many people raise their phone's text size. A screen that only
+works at the default size fails them.
+Do: use the design system's body size for anything people must read,
+keep the smallest sizes for short labels only, and let all text scale
+with the phone's text size setting (in Compose, sizes in sp). Check
+screens at the largest setting: text wraps and containers grow instead
+of cutting it off.
+Don't: shrink text to make it fit, fix a container's height around a
+line of text, or put sentences in caption-sized text.
+See also: SKILL.md core rule (large text setting).
+Source: uxpeak, The UI/UX Playbook (book)
 
 ## Long text keeps a comfortable line length
 Why: very long lines make the eye lose its place when jumping back to
@@ -42,8 +60,8 @@ Why: a long block of text looks like work, so people skip it, including
 the one line they needed. Short paragraphs and subheadings let them scan
 for their part and stop there.
 Do: split any text longer than a few lines (help, descriptions, terms,
-onboarding) into short paragraphs, one idea each, with a subheading
-that says what the piece is about.
+onboarding) into short paragraphs, one idea each, with a clear gap
+between them and a subheading that says what the piece is about.
 Don't: put several ideas in one long paragraph, or write subheadings
 that are decorative rather than descriptive.
 Accessibility: subheadings are marked as headings so screen reader users
