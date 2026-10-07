@@ -83,9 +83,12 @@ Source: uxpeak, product page redesign
 ## Keep context while scrolling
 Why: on long screens, users lose track of what they're looking at.
 Do: when the main image or header scrolls away, keep the title visible
-(for example, it moves into the top bar and stays there).
+(for example, it moves into the top bar and stays there). When people
+compare options in a long table or list of features, keep the option
+names (and prices) pinned at the top while they scroll.
 Don't: let users scroll into details with no reminder of what they're on.
-Source: uxpeak, product page redesign
+Sources: uxpeak, product page redesign; How to Design Better UI
+Components 3.0 (book)
 
 ## The main action stays reachable
 Why: people don't always decide at the top. They read, scroll, compare,

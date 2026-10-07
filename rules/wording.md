@@ -70,3 +70,17 @@ user), lead with the one concrete detail that matters most
 Don't: write a detail that isn't accurate. A vivid promise that turns out
 false costs more trust than a plain label.
 Source: uxpeak, three A/B test examples
+
+## Unfamiliar terms are explained where they appear
+Why: a term the user doesn't know (a fee name, a technical setting, a
+plan feature) stops the decision. Sending them to a help page to find
+out breaks the flow, and many won't come back.
+Do: first try plain words instead of the term. If the term must stay,
+add a small info button next to it that opens a one- or two-sentence
+explanation in place (a tooltip or a small sheet), closable with one tap.
+Don't: rely on hover to show explanations (phones have no hover), or
+hide the meaning of a fee or a limit behind a link to a help page.
+Accessibility: the info button has a label ("What is a service fee?")
+and the explanation is read by screen readers.
+See also: show-the-catch.md (fees and limits up front).
+Source: How to Design Better UI Components 3.0 (book)
