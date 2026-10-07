@@ -44,6 +44,19 @@ Keep the palette calm enough that the content stays the focus.
 Don't: give every icon or badge its own color "to make it lively".
 Source: uxpeak, product page redesign
 
+## Colored labels stay readable
+Why: status tags and chips (Blocked, In progress, Paid) are often white
+text on a bright fill. That looks lively but usually fails contrast, so
+the one word that matters becomes hard to read.
+Do: give a tag a soft tint of its color as background and a dark shade
+of the same color as text, and check it meets 4.5:1. Keep each color to
+one meaning across the whole app (green always means done or good), and
+let the word carry the meaning, so color is never the only signal.
+Don't: put white text on light or saturated fills without checking, or
+reuse a status color for a different status.
+See also: typography.md (badges are scannable).
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## The title stands out without shouting
 Why: the title tells users what they're looking at, so it must be easy to
 find and scan, but an overly heavy title unbalances the screen.

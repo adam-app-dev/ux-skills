@@ -11,11 +11,15 @@ that particular photo happens to be dark (or light). Swap the photo and
 they disappear.
 Do: put a subtle container behind overlaid icons and text, with enough
 contrast and, if needed, a thin outline, so they stay readable on dark,
-bright and busy images.
+bright and busy images. For text along an edge (a caption, a title on a
+card), the background can also be a soft gradient (scrim) or a blur of
+the image behind the text.
 Don't: rely on the demo photo to make overlays readable.
 Example: back and favorite icons over a header photo look fine on a dark
 image and vanish on a bright one (a pineapple, a white dog).
-Source: uxpeak, product page redesign
+Note: blur isn't available everywhere (in Compose, `Modifier.blur` needs
+Android 12 or later). Where it isn't, fall back to the gradient.
+Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
 
 ## Every image has one clear focal point
 Why: when the whole frame is busy, the eye has nowhere to land.
@@ -116,6 +120,23 @@ plain list when people browse more than they search.
 See also: "Images that appear together follow one visual system" and
 "Anything on top of a photo gets its own background" above.
 Source: uxpeak, five advanced UX/UI tips
+
+## Steps that explain a process each get a picture
+Why: three blocks of text that look alike ("Order", "On the way",
+"Delivered") make a new user read everything to grasp the flow. A simple
+picture per step is understood at a glance and makes the order easy to
+remember.
+Do: when explaining how something works (onboarding, a "how it works"
+section, the stages of a request), give each step one simple picture of
+what happens in it, in one shared style, and mark which step this is
+with a number or text ("Step 2 of 3").
+Don't: mark the position with a colored bar alone, or use pictures that
+are decoration rather than a picture of the step.
+Accessibility: the pictures are decorative for screen readers when the
+step text already says everything.
+See also: placement.md (a process with stages is shown as steps), for
+showing where a live request stands.
+Source: uxpeak, The UI/UX Playbook (book)
 
 ## People and companies are shown with their face or logo
 Why: a photo or logo is recognized faster than a name, so users spot who
