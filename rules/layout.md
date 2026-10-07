@@ -41,6 +41,18 @@ Do: reuse the same spacing value for the same relationship
 Don't: pick a slightly different gap for each section.
 Source: uxpeak, product page redesign
 
+## Cards in a row share one height
+Why: cards of different heights side by side look uneven, and buttons
+at different heights make the row hard to scan and compare.
+Do: give cards shown side by side (a two-column grid, a carousel) the
+height of the tallest one, and pin their actions to the bottom so they
+line up. When you write the text, keep headings and descriptions
+roughly the same length.
+Don't: cut off essential text to force equal heights. Translations
+(Italian, German) and larger text settings make lengths vary; let the
+row grow to fit the tallest card instead.
+Source: uxpeak, The UI/UX Playbook (book)
+
 ## Content stays inside the safe area
 Why: modern phones have a home swipe bar, rounded corners and camera
 cut-outs. Controls placed under them are hard to tap, and a tap near the

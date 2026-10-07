@@ -80,9 +80,11 @@ Do: list the actions on the screen and give each a level. The main
 action is the strongest. Secondary actions stay visible but quieter
 (for example a neutral fill or an outline). Actions on single items and
 destructive ones (remove, delete) are the quietest, often just text.
-Rank them by style, fill and weight, not by color alone.
-Don't: show every action as the same full button, or tell them apart
-only by color.
+Rank them by style, fill and weight, not by color alone. The same rank
+looks the same everywhere: the main button is identical on every card
+and every screen.
+Don't: show every action as the same full button, tell them apart only
+by color, or re-color buttons to match each card's image or content.
 Example: a basket with "Remove" on each item, "Continue shopping" and
 "Pay": "Pay" is the strong button, "Continue shopping" a quiet one,
 "Remove" a small text action on each row.

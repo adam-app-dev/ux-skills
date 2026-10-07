@@ -93,12 +93,14 @@ Source: uxpeak, The UI/UX Playbook (book)
 Why: a single beautiful image can still make a list feel messy if every
 item has different backgrounds, lighting and props.
 Do: keep backgrounds, lighting and framing consistent across items that
-appear side by side (grids, lists, catalogs).
+appear side by side (grids, lists, catalogs). When the images themselves
+vary in shape and size, place each one in the same frame (same shape,
+same size, same position) so the set still looks like one family.
 Don't: judge an image alone; judge it inside the list it will live in.
 Note: when users upload their own images (profiles, pets), you can't
 control them, so the layout around them must handle any photo
 (see the first rule, and the core rule in SKILL.md).
-Source: uxpeak, product page redesign
+Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
 
 ## The image's mood fits the content
 Why: style sets expectations. Artificial styling can undermine content
