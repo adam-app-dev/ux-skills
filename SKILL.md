@@ -90,22 +90,26 @@ is unsure or asks for ideas. Skip it only for small changes to an
 existing screen, when the user already described the exact layout, or
 when they say to just build it.
 
-1. Start from the purpose, not from the component library: is the user
+1. List what the screen needs that the user didn't mention: states
+   (empty, loading, error, offline), edge cases from the core rule,
+   missing fields or actions. Keep it short, and wait for the user's
+   answer.
+2. Start from the purpose, not from the component library: is the user
    here to scan, compare, track, act fast, or enter data? What question
    must the screen answer first?
-2. Read [rules/choosing-a-view.md](rules/choosing-a-view.md).
-3. Propose 2 to 3 clearly different directions, not three versions of
+3. Read [rules/choosing-a-view.md](rules/choosing-a-view.md).
+4. Propose 2 to 3 clearly different directions, not three versions of
    the same layout. Different means a different structure: what leads
    the screen, which view holds the content, where the main action
    lives, or whether it's a screen at all (a bottom sheet, an inline
    edit, a step in a flow).
-4. At least one direction must go beyond what the design system's
+5. At least one direction must go beyond what the design system's
    components already show, when the purpose allows it. Name the new
    element it would need.
-5. For each direction, give one or two lines: what it does best, what
+6. For each direction, give one or two lines: what it does best, what
    it costs, and which rules support it. Recommend one, and wait for
    the user's choice.
-6. Build only the chosen direction. Reuse existing components where
+7. Build only the chosen direction. Reuse existing components where
    they fit; build anything new from the design system's tokens and
    mark it "proposed new component".
 
