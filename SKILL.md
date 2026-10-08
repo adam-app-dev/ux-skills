@@ -15,6 +15,11 @@ Those come from the project's own design system.
 If a rule here seems to conflict with the project's design system,
 follow the design system for how it looks, and this skill for what it does.
 
+The design system's components are the defaults, not the limit. When a
+screen's purpose needs something the library doesn't have, build it from
+the design system's tokens and mark it as a proposed new component, so
+the user decides whether it joins the system.
+
 ## Core rule: design for every case, not the demo case
 
 A screen that only works with the example content is broken.
@@ -39,10 +44,14 @@ Design for the system the screen lives in, not the one screenshot.
    Never force everything in.
 3. Read only the files you picked. Each has examples: use them to
    recognize the "before" in your own screen.
-4. Apply them using the project's design system for visuals.
-5. Run the core rule check above.
-6. When you deliver, list which principles and rules you applied and where,
-   in one line each, so the work can be reviewed.
+4. For a new screen or feature, explore before you build (next section)
+   and wait for the user's choice.
+5. Build the chosen direction with the project's design system for
+   visuals.
+6. Run the core rule check above.
+7. When you deliver, list which principles and rules you applied and where,
+   in one line each, so the work can be reviewed, plus any proposed new
+   components.
 
 ## Principle index (how people think)
 
@@ -72,18 +81,38 @@ Design for the system the screen lives in, not the one screenshot.
 | [Navigation](rules/navigation.md) | The backbone, not a toolbox | has a bottom bar, tabs, a side rail or moves between main sections |
 | [Inputs](rules/inputs.md) | Match the input to how often and how exactly | asks the user to enter numbers, amounts or values, or to pick or select options |
 | [States](rules/states.md) | Still works when there's nothing to show | can be empty, loading, failed or offline (lists, dashboards, search) |
-| [Choosing a view](rules/choosing-a-view.md) | The purpose picks the view | shows a set of items or data and you're choosing how (list, grid, cards, timeline, summary, calendar, map), or the user is unsure |
+| [Choosing a view](rules/choosing-a-view.md) | The purpose picks the view | shows a set of items or data and you're choosing how (list, grid, cards, timeline, summary, calendar, map), is a new screen, or the user is unsure |
 
-## When the user is unsure or asks you to be creative
+## Explore before you build
 
-1. Start from the feature's purpose: is the user here to scan, compare,
-   track, act fast, or enter data?
+Do this by default for any new screen or feature, and whenever the user
+is unsure or asks for ideas. Skip it only for small changes to an
+existing screen, when the user already described the exact layout, or
+when they say to just build it.
+
+1. Start from the purpose, not from the component library: is the user
+   here to scan, compare, track, act fast, or enter data? What question
+   must the screen answer first?
 2. Read [rules/choosing-a-view.md](rules/choosing-a-view.md).
-3. Propose 2 to 3 clearly different approaches, each with one line on
-   which rules support it. Recommend one, and wait for the user's choice.
-4. Creativity happens inside the rules and the design system, never
-   against them. If an idea breaks a rule, name the rule and let the
-   user decide.
+3. Propose 2 to 3 clearly different directions, not three versions of
+   the same layout. Different means a different structure: what leads
+   the screen, which view holds the content, where the main action
+   lives, or whether it's a screen at all (a bottom sheet, an inline
+   edit, a step in a flow).
+4. At least one direction must go beyond what the design system's
+   components already show, when the purpose allows it. Name the new
+   element it would need.
+5. For each direction, give one or two lines: what it does best, what
+   it costs, and which rules support it. Recommend one, and wait for
+   the user's choice.
+6. Build only the chosen direction. Reuse existing components where
+   they fit; build anything new from the design system's tokens and
+   mark it "proposed new component".
+
+Creativity happens inside the rules, never against them. Being new is
+not a reason on its own: every direction must serve the screen's
+purpose. If an idea breaks a rule, name the rule and let the user
+decide.
 
 The common thread of the principles: people don't decide logically.
 They react to what is pre-chosen, what they already have, what they just

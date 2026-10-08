@@ -147,17 +147,22 @@ in Maps" button is enough.
 Example: nearby stores, places to visit, delivery areas.
 Source: platform guidelines (Apple HIG maps)
 
-## When the user is unsure, propose 2-3 views and wait
+## For a new screen, propose 2-3 views and wait
 Why: the right view depends on what the user values most, which only
-they know. Picking one silently hides a real choice.
-Do: propose two or three clearly different views (not three versions of
-the same list), with one line each on why it fits the purpose,
-recommend one, and wait for the user to choose.
-Don't: build one view and present it as the only option, or offer a
-long menu of every possible view.
+they know. Picking one silently hides a real choice, and reaching for
+the components that already exist repeats the same few layouts on every
+screen.
+Do: for a new screen, or whenever the user is unsure, propose two or
+three clearly different views (not three versions of the same list),
+with one line each on why it fits the purpose, recommend one, and wait
+for the user to choose. Include at least one view the app doesn't use
+yet when the purpose allows it.
+Don't: build one view and present it as the only option, offer a long
+menu of every possible view, or limit the options to the components the
+design system already has.
 Example: for a screen of saved items: a list (fastest to scan by name),
 a grid (best if people know items by their picture), or cards (best if
 each item has its own actions). Recommendation: grid, if every item has
 a photo.
-See also: SKILL.md (when the user is unsure or asks you to be creative).
+See also: SKILL.md (explore before you build).
 Source: this repo's own working rule
