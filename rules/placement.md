@@ -14,6 +14,20 @@ Don't: push a deciding piece of information (like the price) far down
 the screen.
 Source: uxpeak, product page redesign
 
+## The first view earns the scroll
+Why: everybody scrolls. Shrinking items to fit more of them on the
+first screen makes each one too small to recognize or want, so nobody
+feels like scrolling on. What matters is whether the first thing people
+see is worth continuing for.
+Do: give the first items on the screen the size they need to do their
+job (be recognized, be compared, make people want them), and let the
+rest follow below.
+Don't: shrink images, text or rows just to fit more items before the
+bottom of the screen.
+Note: this is not a reason to push key information down; see "Key
+information comes early" above.
+Source: uxpeak, junior vs senior vs staff redesigns (food list, filters)
+
 ## Each screen shows what its task needs, no more and no less
 Why: every extra button, figure or line competes with the task the user
 came for. But cutting too far is just as bad: a screen without the facts

@@ -147,6 +147,20 @@ in Maps" button is enough.
 Example: nearby stores, places to visit, delivery areas.
 Source: platform guidelines (Apple HIG maps)
 
+## When no view is right for everyone, let people switch
+Why: some content serves two purposes equally. Large photo cards make
+people want something; a compact list lets them compare quickly. Some
+people prefer one, some the other, and picking for everyone fails half
+of them.
+Do: when two views genuinely serve different users, offer a simple
+switch between them (for example cards and a compact list) near the
+results, and remember the choice.
+Don't: add a switch to avoid deciding: when one view clearly fits the
+purpose, use it. Don't reset the user's choice every visit.
+Accessibility: the switch has a label and announces the current view
+("View: compact list").
+Source: uxpeak, junior vs senior vs staff redesigns (food list, filters)
+
 ## For a new screen, propose 2-3 views and wait
 Why: the right view depends on what the user values most, which only
 they know. Picking one silently hides a real choice, and reaching for

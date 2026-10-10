@@ -35,6 +35,9 @@ starting over every time.
   first item; a full one gets search, sorting and summaries.
 - **Tips and help:** show hints the first few times, then stop.
 - **Messages:** greet a newcomer differently from someone with a streak.
+- **Lists and results:** a "Best match" label on the item that fits
+  what the user told the app, with a way to see why ("Matches your
+  saved preferences").
 
 ## Do
 - Define the stages for your app (for example: first use, building a
@@ -53,6 +56,7 @@ starting over every time.
 Personalization uses only data the user knowingly gave, and they can see
 why something is shown. Sensitive data (health, money, location) needs
 clear consent before it shapes the screen. The user can always reset or
-turn off personal suggestions.
+turn off personal suggestions. A "best match" or "for you" label is
+never a paid placement in disguise.
 
-Source: uxpeak, five advanced UX/UI tips (see sources.md)
+Sources: uxpeak, five advanced UX/UI tips; uxpeak, junior vs senior vs staff redesigns (food list, filters) (see sources.md)

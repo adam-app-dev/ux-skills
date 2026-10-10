@@ -14,15 +14,22 @@ contrast and, if needed, a thin outline, so they stay readable on dark,
 bright and busy images. For text along an edge (a caption, a title on a
 card), the background can also be a soft gradient (scrim) or a blur of
 the image behind the text.
+When the text matters (a name, a price, a rating), the safest place is
+often not on the photo at all: put it below the image, so the card looks
+the same whatever photo it gets.
 Don't: rely on the demo photo to make overlays readable.
 Example: back and favorite icons over a header photo look fine on a dark
 image and vanish on a bright one (a pineapple, a white dog).
+Example: a list of places or products shows the photo on top and the
+name, rating and price underneath, so a dark, bright or cluttered photo
+uploaded by anyone never hides them.
 Note: blur isn't available everywhere (in Compose, `Modifier.blur` needs
 Android 12 or later). Where it isn't, fall back to the gradient.
 Text on a blurred or "glass" panel still needs 4.5:1 contrast on every
 background it can land on, and the panel turns solid when the phone's
 "Reduce transparency" setting is on.
-Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book)
+Sources: uxpeak, product page redesign; uxpeak, The UI/UX Playbook (book);
+uxpeak, junior vs senior vs staff redesigns (food list, filters)
 
 ## Every image has one clear focal point
 Why: when the whole frame is busy, the eye has nowhere to land.
@@ -52,7 +59,12 @@ Example: for content people get (a guide, a template, a course), show a
 peek inside (sample pages, real screenshots), not only the cover.
 (The source reports a big conversion jump from this on its own sales
 page, without data; treat it as an illustration.)
-Sources: uxpeak, three A/B test examples; uxpeak, five UX/UI design tips (Playbook)
+Example: when people choose by what they'll get (a dish, a stay, a
+product), the photo shows that thing, not the seller's logo. A logo says
+who sells it; a photo says what you get. The seller's name or logo can
+sit small next to the title.
+Sources: uxpeak, three A/B test examples; uxpeak, five UX/UI design tips (Playbook);
+uxpeak, junior vs senior vs staff redesigns (food list, filters)
 
 ## Show it in use, not only on its own
 Why: people can't touch what's on a screen. An object alone on a plain
@@ -75,9 +87,13 @@ turns an exciting choice into a form to fill in.
 Do: give the main image a large share of the screen, and show when more
 images exist (for example "1 of 24").
 Don't: shrink the deciding image to make room for fields and labels.
+Example: in a browse list where people pick by how things look (food,
+places, products), the photo is the largest element of each card, even
+though it's a list. A small thumbnail only says "there's a bowl of
+something"; a large one makes people want it.
 Note: this is about images that drive the decision. Lists, settings and
 data screens don't need large images.
-Source: uxpeak, three A/B test examples
+Sources: uxpeak, three A/B test examples; uxpeak, junior vs senior vs staff redesigns (food list, filters)
 
 ## When the image only identifies the item, keep it small
 Why: in a basket, a list or a summary, the user already knows what the
@@ -120,11 +136,18 @@ recognize what they want at a glance.
 Do: give each browsable option (categories, collections, types) a clear
 image or icon of its subject, all in the same style, on a calm, solid
 background. Text on that background meets the 4.5:1 contrast minimum.
+When the content below is made of photos, give the options icons or
+simple illustrations instead, kept quiet (soft colors, calm
+backgrounds), so a row of category photos doesn't compete with the
+photos of the actual items. A custom icon set also gives the app its own
+character.
 Don't: use mismatched stock photos with text laid on top, or a long
 plain list when people browse more than they search.
+Accessibility: quiet icons still meet 3:1 contrast and keep their text
+name.
 See also: "Images that appear together follow one visual system" and
 "Anything on top of a photo gets its own background" above.
-Source: uxpeak, five advanced UX/UI tips
+Sources: uxpeak, five advanced UX/UI tips; uxpeak, junior vs senior vs staff redesigns (food list, filters)
 
 ## Steps that explain a process each get a picture
 Why: three blocks of text that look alike ("Order", "On the way",

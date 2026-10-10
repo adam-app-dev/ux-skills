@@ -17,11 +17,20 @@ Do:
 - **Frequent or exact values** (amounts, quantities, daily entries):
   a number field, a stepper, or quick picks plus a field
   (see smart-defaults.md).
+- **Exploring a range** (a price range in a filter): a slider moves
+  quickly through it, with typed fields beside it for an exact value.
+- **Nudging a value that's already set** (quantity in a basket, a
+  temperature): a stepper.
+- **Picking from a small, known set** (rooms, seats, sizes): visible
+  chips, so people tap the value they already know.
 Don't: choose a wheel or slider for an entry the user makes often, or
-for a value that must be exact.
+for a value that must be exact. Don't use a stepper when people know
+the value they want and must tap their way up to it, which also hides
+the other options.
 Example: setting your height at sign-up with a wheel is fine; entering
 an exact amount every day with a slider is not.
-Source: uxpeak, five advanced UX/UI tips
+See also: filters.md (options match how people think).
+Sources: uxpeak, five advanced UX/UI tips; uxpeak, junior vs senior vs staff redesigns (food list, filters)
 
 ## Every value can also be typed
 Why: wheels and sliders are hard for screen reader users and for people

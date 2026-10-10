@@ -33,6 +33,12 @@ illustration, the idea as the point.)
   they're choosing for.
 - **After:** the part the user already decided (the destination, the
   item, the date) is shown first, so the only question left is "which one?"
+- **Before:** each filter on its own page, to keep things looking
+  simple. The user picks one value without seeing the others, and only
+  learns the result at the end.
+- **After:** all filters together, with the result count updating as
+  they change. More is on screen, but the decision is easier.
+  Looking simpler is not the same as being easier to decide.
 
 ## Where it applies
 - **Paywalls and upgrades:** explain how the trial or plan works instead
@@ -53,6 +59,7 @@ illustration, the idea as the point.)
 
 ## Don't
 - Make the user evaluate several uncertain things at once.
+- Split connected decisions across screens to make each one look simpler.
 - Show a range when you actually know the number.
 
 ## Guardrail
@@ -61,4 +68,5 @@ the price is genuinely fixed; if it can really change, say so clearly
 rather than hiding the uncertainty until later. Making a decision easier
 never means hiding what the user is agreeing to (see show-the-catch.md).
 
-Source: uxpeak, three A/B test examples (paywall, ride-hailing, booking) (see sources.md)
+Sources: uxpeak, three A/B test examples (paywall, ride-hailing, booking);
+uxpeak, junior vs senior vs staff redesigns (food list, filters) (see sources.md)

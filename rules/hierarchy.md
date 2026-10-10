@@ -160,6 +160,20 @@ Exception: a selected state may switch one icon from outlined to filled
 signal, not a mismatch.
 Sources: uxpeak, product page redesign; uxpeak, bottom navigation guide
 
+## Shapes share one language
+Why: when cards have sharp corners, buttons are pills and category
+images are circles, the screen feels assembled from different apps,
+even if each piece looks fine on its own.
+Do: use the same corner style for elements of the same kind across the
+screen (cards, images, chips, buttons), from the design system's shape
+values. Change the shape only when it means something (a circle for a
+person's photo).
+Don't: mix sharp, rounded and circular shapes for similar elements on
+the same screen.
+See also: "Icons share one visual style" above, imagery.md (one shared
+frame).
+Source: uxpeak, junior vs senior vs staff redesigns (food list, filters)
+
 ## Icons are the familiar ones
 Why: an icon only saves time if people recognize it at a glance. An
 unusual or artistic icon makes users stop and guess.

@@ -1,6 +1,6 @@
 ---
 name: ux-skills
-description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency, user stage, social proof) and concrete screen rules (choosing a view, imagery, layout, hierarchy, typography, placement, wording, navigation, inputs, states).
+description: Portable UX judgment for designing and building app screens and features. Use whenever designing, building, reviewing or redesigning any screen, flow or feature UI, in Claude Design or in code (Compose, KMP, web), even if the user doesn't mention UX, psychology or best practices. Covers how people think and decide (defaults, progress, trust, ownership, loss, comparison, easy decisions, transparency, user stage, social proof) and concrete screen rules (choosing a view, imagery, layout, hierarchy, typography, placement, wording, navigation, inputs, filters, states).
 ---
 
 # UX Skills
@@ -80,6 +80,7 @@ Design for the system the screen lives in, not the one screenshot.
 | [Wording](rules/wording.md) | Specific words do the convincing | has buttons, titles, dates, totals or helper lines |
 | [Navigation](rules/navigation.md) | The backbone, not a toolbox | has a bottom bar, tabs, a side rail or moves between main sections |
 | [Inputs](rules/inputs.md) | Match the input to how often and how exactly | asks the user to enter numbers, amounts or values, or to pick or select options |
+| [Filters](rules/filters.md) | Filters help people explore, not fill in a form | lets people narrow or sort a large set (filters, sort, result counts, ranges) |
 | [States](rules/states.md) | Still works when there's nothing to show | can be empty, loading, failed or offline (lists, dashboards, search) |
 | [Choosing a view](rules/choosing-a-view.md) | The purpose picks the view | shows a set of items or data and you're choosing how (list, grid, cards, timeline, summary, calendar, map), is a new screen, or the user is unsure |
 
@@ -97,19 +98,26 @@ when they say to just build it.
 2. Start from the purpose, not from the component library: is the user
    here to scan, compare, track, act fast, or enter data? What question
    must the screen answer first?
-3. Read [rules/choosing-a-view.md](rules/choosing-a-view.md).
-4. Propose 2 to 3 clearly different directions, not three versions of
+3. Look at how strong, shipped products solve the same problem. If a
+   screen reference library is connected as a tool (for example the
+   Mobbin MCP), use it: find the most relevant real screens and flows,
+   name the patterns they share and where they differ, and show the
+   references. If none is connected, work from what you know and say so.
+   References show what's possible; they don't replace this repo's
+   rules, and patterns that break the honesty guardrails are not copied.
+4. Read [rules/choosing-a-view.md](rules/choosing-a-view.md).
+5. Propose 2 to 3 clearly different directions, not three versions of
    the same layout. Different means a different structure: what leads
    the screen, which view holds the content, where the main action
    lives, or whether it's a screen at all (a bottom sheet, an inline
    edit, a step in a flow).
-5. At least one direction must go beyond what the design system's
+6. At least one direction must go beyond what the design system's
    components already show, when the purpose allows it. Name the new
    element it would need.
-6. For each direction, give one or two lines: what it does best, what
+7. For each direction, give one or two lines: what it does best, what
    it costs, and which rules support it. Recommend one, and wait for
    the user's choice.
-7. Build only the chosen direction. Reuse existing components where
+8. Build only the chosen direction. Reuse existing components where
    they fit; build anything new from the design system's tokens and
    mark it "proposed new component".
 

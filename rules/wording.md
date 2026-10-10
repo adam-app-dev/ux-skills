@@ -58,8 +58,13 @@ Don't: show raw inputs (two dates, a unit price) and leave the user to
 compute what they mean.
 Example: a date range shown as "Fri 28 Mar → Wed 2 Apr · 5 nights"
 instead of two plain date fields.
+Example: when the app needs a number the user doesn't know (a maximum
+price), ask for what they do know (what they can pay up front and per
+month) and work it out for them. Show the assumptions used (such as an
+interest rate) and call the result an estimate.
+Don't: present an estimate as advice or as a guaranteed figure.
 See also: smart-defaults.md (buttons that state the result).
-Source: uxpeak, three A/B test examples
+Sources: uxpeak, three A/B test examples; uxpeak, junior vs senior vs staff redesigns (food list, filters)
 
 ## Concrete details beat generic labels
 Why: a specific detail lets the user picture the thing; a generic label
